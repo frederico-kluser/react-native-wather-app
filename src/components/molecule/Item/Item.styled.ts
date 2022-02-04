@@ -1,17 +1,16 @@
 import styled from 'styled-components/native';
-import {deviceWidth} from '../../../helpers/dimentions';
-import {PAGE_PADDING} from '../../../styles/theme';
+import {itemSize} from '../../../helpers/dimentions';
 
 export const Container = styled.TouchableOpacity`
   border-radius: 16px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   box-sizing: border-box;
-  height: ${deviceWidth / 2 - PAGE_PADDING * 2}px;
+  height: ${itemSize}px;
   ${({marginRight}) => marginRight && 'margin-right: 32px;'}
   margin-bottom: 32px;
   padding: 16px;
-  width: ${deviceWidth / 2 - PAGE_PADDING * 2}px;
+  width: ${itemSize}px;
 `;
 
 export const Temperature = styled.Text`

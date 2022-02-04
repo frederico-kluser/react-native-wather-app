@@ -10,9 +10,15 @@ const Container = styled.TouchableOpacity`
   width: 100%;
 `;
 
-export const viewStyle = (left: any, top: any, width: any, height: any) => ({
+export const viewStyle = (
+  left: any,
+  top: any,
+  width: any,
+  height: any,
+  borderRadius: any,
+) => ({
   backgroundColor: 'red',
-  borderRadius: left,
+  borderRadius,
   height,
   left,
   overflow: 'hidden',
