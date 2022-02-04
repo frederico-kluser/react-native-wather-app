@@ -15,33 +15,164 @@ exports[`renders correctly 1`] = `
   style={
     Object {
       "backgroundColor": "#fff",
-      "borderColor": "#000",
       "borderRadius": 16,
-      "borderStyle": "solid",
-      "borderWidth": 2,
-      "height": 100,
-      "marginBottom": 16,
+      "boxSizing": "border-box",
+      "height": 343,
+      "marginBottom": 32,
       "opacity": 1,
       "paddingBottom": 16,
       "paddingLeft": 16,
       "paddingRight": 16,
       "paddingTop": 16,
-      "position": "relative",
-      "width": "100%",
+      "shadowColor": "rgba(0, 0, 0, 0.24)",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 8,
+      "width": 343,
     }
   }
 >
-  <Text
+  <Image
     style={
       Array [
         Object {
-          "color": "#212121",
-          "fontSize": 15,
-          "fontWeight": "bold",
-          "textTransform": "uppercase",
+          "position": "absolute",
+          "right": 10,
+          "top": 10,
         },
       ]
     }
   />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 19,
+          "left": 15,
+          "position": "absolute",
+          "top": 10,
+        },
+      ]
+    }
+    temperature=""
+  >
+    °C
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 37,
+        },
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 12,
+          "fontWeight": "500",
+          "marginTop": 8,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 12,
+          "marginTop": 6,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "bottom": 16,
+          "flexDirection": "row",
+          "left": 16,
+          "position": "absolute",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/humidity.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 15,
+            "width": 15,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      20%
+    </Text>
+  </View>
+  <View
+    rightPosition={true}
+    style={
+      Array [
+        Object {
+          "bottom": 16,
+          "flexDirection": "row",
+          "position": "absolute",
+          "right": 16,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/wind.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 15,
+            "width": 15,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      7 km/h
+    </Text>
+  </View>
 </View>
 `;

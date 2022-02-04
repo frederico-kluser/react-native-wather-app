@@ -1,66 +1,77 @@
 import React, {useEffect, useState} from 'react';
 import Item from '../../components/molecule/Item/Item';
 import ItemModal from '../../components/organism/ItemModal/ItemModal';
-import {Container} from './Home.styled';
+import {
+  City,
+  Container,
+  Country,
+  Degree,
+  WeatherInfoIcon,
+  Metric,
+  NewItem,
+  WeatherIcon,
+  WeatherInfo,
+  WeatherInfoText,
+} from './Home.styled';
 
 const Home = ({scrollY, setScroll}) => {
   const [selectedItem, setSelectedItem] = useState(-1);
   const [cities, setCities] = useState([
     {
-      name: 'New York',
-      temperature: '8',
-      maxTemperature: '10',
-      minTemperature: '2',
-      status: 'cloudy',
-    },
-    {
-      name: 'São Paulo',
+      city: 'São Paulo',
+      country: 'Brazil',
       temperature: '10',
       maxTemperature: '12',
       minTemperature: '2',
-      status: 'rainy',
+      status: 'cloudDay',
     },
     {
-      name: 'Rio de Janeiro',
+      city: 'Rio de Janeiro',
+      country: 'Brazil',
       temperature: '12',
       maxTemperature: '14',
       minTemperature: '2',
-      status: 'sunny',
+      status: 'cloudDay',
     },
     {
-      name: 'New York',
+      city: 'New York',
+      country: 'United States',
       temperature: '8',
       maxTemperature: '10',
       minTemperature: '2',
-      status: 'cloudy',
+      status: 'cloudDay',
     },
     {
-      name: 'Orlando',
+      city: 'Orlando',
+      country: 'United States',
       temperature: '10',
       maxTemperature: '12',
       minTemperature: '2',
-      status: 'rainy',
+      status: 'cloudDay',
     },
     {
-      name: 'London',
+      city: 'London',
+      country: 'United Kingdom',
       temperature: '12',
       maxTemperature: '14',
       minTemperature: '2',
-      status: 'sunny',
+      status: 'cloudDay',
     },
     {
-      name: 'Tokyo',
+      city: 'Tokyo',
+      country: 'Japan',
       temperature: '8',
       maxTemperature: '10',
       minTemperature: '2',
-      status: 'cloudy',
+      status: 'cloudDay',
     },
     {
-      name: 'Dubai',
+      city: 'Dubai',
+      country: 'United Arab Emirates',
       temperature: '10',
       maxTemperature: '12',
       minTemperature: '2',
-      status: 'rainy',
+      status: 'cloudDay',
     },
   ]);
 
@@ -73,18 +84,18 @@ const Home = ({scrollY, setScroll}) => {
       {selectedItem >= 0 && (
         <ItemModal
           index={selectedItem}
-          name={cities[selectedItem].name}
+          name={cities[selectedItem].city}
           setSelectedItem={setSelectedItem}
           scrollY={scrollY}
         />
       )}
-      {cities.map(({name}: any, index: number) => (
+      {cities.map((city: any, index: number) => (
         <Item
           func={setSelectedItem}
           index={index}
-          key={name + index}
+          key={city.city + index}
           lastElement={index === cities.length - 1}
-          name={name}
+          {...city}
         />
       ))}
     </Container>

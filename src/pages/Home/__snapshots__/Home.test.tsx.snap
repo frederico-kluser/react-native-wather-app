@@ -5,7 +5,8 @@ exports[`renders correctly 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "lightcoral",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
@@ -28,81 +29,175 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "backgroundColor": "#fff",
-        "borderColor": "#000",
         "borderRadius": 16,
-        "borderStyle": "solid",
-        "borderWidth": 2,
-        "height": 100,
-        "marginBottom": 16,
+        "boxSizing": "border-box",
+        "height": 343,
+        "marginBottom": 32,
+        "marginRight": 32,
         "opacity": 1,
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
-        "position": "relative",
-        "width": "100%",
+        "shadowColor": "rgba(0, 0, 0, 0.24)",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": 343,
       }
     }
   >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloudDay.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "right": 10,
+            "top": 10,
+          },
+        ]
+      }
+    />
     <Text
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "fontSize": 19,
+            "left": 55,
+            "position": "absolute",
+            "top": 10,
+          },
+        ]
+      }
+      temperature="10"
+    >
+      °C
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 37,
           },
         ]
       }
     >
-      New York
+      10
     </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderRadius": 16,
-        "borderStyle": "solid",
-        "borderWidth": 2,
-        "height": 100,
-        "marginBottom": 16,
-        "opacity": 1,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
-        "paddingRight": 16,
-        "paddingTop": 16,
-        "position": "relative",
-        "width": "100%",
-      }
-    }
-  >
     <Text
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "fontSize": 12,
+            "fontWeight": "500",
+            "marginTop": 8,
           },
         ]
       }
     >
       São Paulo
     </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "marginTop": 6,
+          },
+        ]
+      }
+    >
+      Brazil
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "left": 16,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/humidity.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        20%
+      </Text>
+    </View>
+    <View
+      rightPosition={true}
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "position": "absolute",
+            "right": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/wind.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        7 km/h
+      </Text>
+    </View>
   </View>
   <View
     accessible={true}
@@ -118,36 +213,174 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "backgroundColor": "#fff",
-        "borderColor": "#000",
         "borderRadius": 16,
-        "borderStyle": "solid",
-        "borderWidth": 2,
-        "height": 100,
-        "marginBottom": 16,
+        "boxSizing": "border-box",
+        "height": 343,
+        "marginBottom": 32,
         "opacity": 1,
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
-        "position": "relative",
-        "width": "100%",
+        "shadowColor": "rgba(0, 0, 0, 0.24)",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": 343,
       }
     }
   >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloudDay.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "right": 10,
+            "top": 10,
+          },
+        ]
+      }
+    />
     <Text
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "fontSize": 19,
+            "left": 55,
+            "position": "absolute",
+            "top": 10,
+          },
+        ]
+      }
+      temperature="12"
+    >
+      °C
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 37,
+          },
+        ]
+      }
+    >
+      12
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "500",
+            "marginTop": 8,
           },
         ]
       }
     >
       Rio de Janeiro
     </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "marginTop": 6,
+          },
+        ]
+      }
+    >
+      Brazil
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "left": 16,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/humidity.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        20%
+      </Text>
+    </View>
+    <View
+      rightPosition={true}
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "position": "absolute",
+            "right": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/wind.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        7 km/h
+      </Text>
+    </View>
   </View>
   <View
     accessible={true}
@@ -163,36 +396,175 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "backgroundColor": "#fff",
-        "borderColor": "#000",
         "borderRadius": 16,
-        "borderStyle": "solid",
-        "borderWidth": 2,
-        "height": 100,
-        "marginBottom": 16,
+        "boxSizing": "border-box",
+        "height": 343,
+        "marginBottom": 32,
+        "marginRight": 32,
         "opacity": 1,
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
-        "position": "relative",
-        "width": "100%",
+        "shadowColor": "rgba(0, 0, 0, 0.24)",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": 343,
       }
     }
   >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloudDay.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "right": 10,
+            "top": 10,
+          },
+        ]
+      }
+    />
     <Text
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "fontSize": 19,
+            "left": 35,
+            "position": "absolute",
+            "top": 10,
+          },
+        ]
+      }
+      temperature="8"
+    >
+      °C
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 37,
+          },
+        ]
+      }
+    >
+      8
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "500",
+            "marginTop": 8,
           },
         ]
       }
     >
       New York
     </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "marginTop": 6,
+          },
+        ]
+      }
+    >
+      United States
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "left": 16,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/humidity.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        20%
+      </Text>
+    </View>
+    <View
+      rightPosition={true}
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "position": "absolute",
+            "right": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/wind.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        7 km/h
+      </Text>
+    </View>
   </View>
   <View
     accessible={true}
@@ -208,36 +580,174 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "backgroundColor": "#fff",
-        "borderColor": "#000",
         "borderRadius": 16,
-        "borderStyle": "solid",
-        "borderWidth": 2,
-        "height": 100,
-        "marginBottom": 16,
+        "boxSizing": "border-box",
+        "height": 343,
+        "marginBottom": 32,
         "opacity": 1,
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
-        "position": "relative",
-        "width": "100%",
+        "shadowColor": "rgba(0, 0, 0, 0.24)",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": 343,
       }
     }
   >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloudDay.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "right": 10,
+            "top": 10,
+          },
+        ]
+      }
+    />
     <Text
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "fontSize": 19,
+            "left": 55,
+            "position": "absolute",
+            "top": 10,
+          },
+        ]
+      }
+      temperature="10"
+    >
+      °C
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 37,
+          },
+        ]
+      }
+    >
+      10
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "500",
+            "marginTop": 8,
           },
         ]
       }
     >
       Orlando
     </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "marginTop": 6,
+          },
+        ]
+      }
+    >
+      United States
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "left": 16,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/humidity.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        20%
+      </Text>
+    </View>
+    <View
+      rightPosition={true}
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "position": "absolute",
+            "right": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/wind.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        7 km/h
+      </Text>
+    </View>
   </View>
   <View
     accessible={true}
@@ -253,36 +763,175 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "backgroundColor": "#fff",
-        "borderColor": "#000",
         "borderRadius": 16,
-        "borderStyle": "solid",
-        "borderWidth": 2,
-        "height": 100,
-        "marginBottom": 16,
+        "boxSizing": "border-box",
+        "height": 343,
+        "marginBottom": 32,
+        "marginRight": 32,
         "opacity": 1,
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
-        "position": "relative",
-        "width": "100%",
+        "shadowColor": "rgba(0, 0, 0, 0.24)",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": 343,
       }
     }
   >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloudDay.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "right": 10,
+            "top": 10,
+          },
+        ]
+      }
+    />
     <Text
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "fontSize": 19,
+            "left": 55,
+            "position": "absolute",
+            "top": 10,
+          },
+        ]
+      }
+      temperature="12"
+    >
+      °C
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 37,
+          },
+        ]
+      }
+    >
+      12
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "500",
+            "marginTop": 8,
           },
         ]
       }
     >
       London
     </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "marginTop": 6,
+          },
+        ]
+      }
+    >
+      United Kingdom
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "left": 16,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/humidity.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        20%
+      </Text>
+    </View>
+    <View
+      rightPosition={true}
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "position": "absolute",
+            "right": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/wind.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        7 km/h
+      </Text>
+    </View>
   </View>
   <View
     accessible={true}
@@ -298,36 +947,174 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "backgroundColor": "#fff",
-        "borderColor": "#000",
         "borderRadius": 16,
-        "borderStyle": "solid",
-        "borderWidth": 2,
-        "height": 100,
-        "marginBottom": 16,
+        "boxSizing": "border-box",
+        "height": 343,
+        "marginBottom": 32,
         "opacity": 1,
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
-        "position": "relative",
-        "width": "100%",
+        "shadowColor": "rgba(0, 0, 0, 0.24)",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": 343,
       }
     }
   >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloudDay.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "right": 10,
+            "top": 10,
+          },
+        ]
+      }
+    />
     <Text
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "fontSize": 19,
+            "left": 35,
+            "position": "absolute",
+            "top": 10,
+          },
+        ]
+      }
+      temperature="8"
+    >
+      °C
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 37,
+          },
+        ]
+      }
+    >
+      8
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "500",
+            "marginTop": 8,
           },
         ]
       }
     >
       Tokyo
     </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "marginTop": 6,
+          },
+        ]
+      }
+    >
+      Japan
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "left": 16,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/humidity.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        20%
+      </Text>
+    </View>
+    <View
+      rightPosition={true}
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "position": "absolute",
+            "right": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/wind.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        7 km/h
+      </Text>
+    </View>
   </View>
   <View
     accessible={true}
@@ -343,36 +1130,175 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "backgroundColor": "#fff",
-        "borderColor": "#000",
         "borderRadius": 16,
-        "borderStyle": "solid",
-        "borderWidth": 2,
-        "height": 100,
-        "marginBottom": 0,
+        "boxSizing": "border-box",
+        "height": 343,
+        "marginBottom": 32,
+        "marginRight": 32,
         "opacity": 1,
         "paddingBottom": 16,
         "paddingLeft": 16,
         "paddingRight": 16,
         "paddingTop": 16,
-        "position": "relative",
-        "width": "100%",
+        "shadowColor": "rgba(0, 0, 0, 0.24)",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": 343,
       }
     }
   >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloudDay.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "right": 10,
+            "top": 10,
+          },
+        ]
+      }
+    />
     <Text
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "fontSize": 19,
+            "left": 55,
+            "position": "absolute",
+            "top": 10,
+          },
+        ]
+      }
+      temperature="10"
+    >
+      °C
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 37,
+          },
+        ]
+      }
+    >
+      10
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "500",
+            "marginTop": 8,
           },
         ]
       }
     >
       Dubai
     </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "marginTop": 6,
+          },
+        ]
+      }
+    >
+      United Arab Emirates
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "left": 16,
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/humidity.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        20%
+      </Text>
+    </View>
+    <View
+      rightPosition={true}
+      style={
+        Array [
+          Object {
+            "bottom": 16,
+            "flexDirection": "row",
+            "position": "absolute",
+            "right": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/wind.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 15,
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 12,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        7 km/h
+      </Text>
+    </View>
   </View>
 </View>
 `;
