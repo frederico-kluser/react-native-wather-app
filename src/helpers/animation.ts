@@ -2,7 +2,7 @@
 import {useRef} from 'react';
 import {Animated} from 'react-native';
 
-const kluserMotion = (from: number, toValue: number, duration: number) => {
+const kluserMotion = (from: number, toValue: number, duration = 500) => {
   const element = useRef(new Animated.Value(from)).current;
   const reverseElement = useRef(new Animated.Value(toValue || 0)).current;
 

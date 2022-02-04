@@ -7,11 +7,12 @@ exports[`renders correctly 1`] = `
     Object {
       "backgroundColor": "red",
       "borderRadius": 16,
+      "height": 100,
       "left": 16,
       "overflow": "hidden",
       "position": "absolute",
       "top": NaN,
-      "width": "100%",
+      "width": 718,
       "zIndex": 1,
     }
   }
