@@ -1,8 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import City from './City';
+import ItemModal from './ItemModal';
+
+jest.useFakeTimers();
 
 test('renders correctly', () => {
-  const tree = renderer.create(<City />).toJSON();
+  const tree = renderer.create(<ItemModal />).toJSON();
   expect(tree).toMatchSnapshot();
 });

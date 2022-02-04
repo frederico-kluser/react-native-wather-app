@@ -1,10 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Home from './Home';
+import Item from './Item';
 
 test('renders correctly', () => {
-  const tree = renderer
-    .create(<Home scrollY={0} setScroll={() => {}} />)
-    .toJSON();
+  const tree = renderer.create(<Item />).toJSON();
   expect(tree).toMatchSnapshot();
 });

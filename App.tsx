@@ -8,35 +8,24 @@
  * @format
  */
 
-import {NavigationContainer} from '@react-navigation/native';
-import React from 'react';
-import {SafeAreaView, StatusBar, useColorScheme} from 'react-native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import React, {useState} from 'react';
+import {SafeAreaView, ScrollView} from 'react-native';
 
 import Home from './src/pages/Home/Home';
-import City from './src/pages/City/City';
-
-const Stack = createNativeStackNavigator();
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
+  const handleScroll = (event: any) => {
+    setScrollY(event.nativeEvent.contentOffset.y);
+  };
+  const [scroll, setScroll] = useState(true);
+  const [scrollY, setScrollY] = useState(0);
 
   return (
-    <NavigationContainer>
-      <SafeAreaView style={{flex: 1}}>
-        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-        <Stack.Navigator initialRouteName="Home">
-          <Stack.Screen
-            name="Home"
-            component={Home}
-            options={{
-              title: 'Weather',
-            }}
-          />
-          <Stack.Screen name="City" component={City} />
-        </Stack.Navigator>
-      </SafeAreaView>
-    </NavigationContainer>
+    <SafeAreaView style={{flex: 1}}>
+      <ScrollView scrollEnabled={scroll} onScroll={handleScroll}>
+        <Home scrollY={scrollY} setScroll={setScroll} />
+      </ScrollView>
+    </SafeAreaView>
   );
 };
 

@@ -5,7 +5,10 @@ exports[`renders correctly 1`] = `
   style={
     Array [
       Object {
-        "color": "red",
+        "color": "#212121",
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "textTransform": "uppercase",
       },
     ]
   }
