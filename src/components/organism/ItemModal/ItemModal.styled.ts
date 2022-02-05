@@ -1,12 +1,18 @@
 import styled from 'styled-components/native';
 import {deviceHeight, deviceWidth} from '../../../helpers/dimentions';
 
-export const BG = styled.Image`
-  position: absolute;
-  width: ${deviceWidth}px;
-  left: 0px;
-  top: -230px;
-`;
+type Overflow = 'hidden' | 'scroll' | 'visible';
+type Position = 'absolute' | 'relative';
+
+interface viewStyleObjInterface {
+  overflow: Overflow;
+  position: Position;
+}
+
+const viewStyleObj: viewStyleObjInterface = {
+  overflow: 'hidden',
+  position: 'absolute',
+};
 
 export const viewStyle = (
   left: any,
@@ -19,14 +25,17 @@ export const viewStyle = (
   borderRadius,
   height,
   left,
-  overflow: 'hidden',
-  position: 'absolute',
   top,
   width,
   zIndex: 1,
+  ...viewStyleObj,
 });
 
-const Button = styled.TouchableOpacity`
+interface ButtonInterface {
+  index: number;
+}
+
+const Button = styled.TouchableOpacity<ButtonInterface>`
   background-color: #000;
   height: 20px;
   left: 0px;

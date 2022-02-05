@@ -19,6 +19,7 @@ exports[`renders correctly 1`] = `
       "boxSizing": "border-box",
       "height": 343,
       "marginBottom": 32,
+      "marginRight": 32,
       "opacity": 1,
       "paddingBottom": 16,
       "paddingLeft": 16,
@@ -36,6 +37,11 @@ exports[`renders correctly 1`] = `
   }
 >
   <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/day.png",
+      }
+    }
     style={
       Array [
         Object {
@@ -57,7 +63,7 @@ exports[`renders correctly 1`] = `
       ]
     }
   >
-    
+    10
     °
   </Text>
   <Text
@@ -70,7 +76,9 @@ exports[`renders correctly 1`] = `
         },
       ]
     }
-  />
+  >
+    São Paulo
+  </Text>
   <Text
     style={
       Array [
@@ -80,7 +88,9 @@ exports[`renders correctly 1`] = `
         },
       ]
     }
-  />
+  >
+    Brazil
+  </Text>
   <View
     style={
       Array [

@@ -22,7 +22,7 @@ const kluserMotion = (
         useNativeDriver,
       }).start();
     },
-    reverse: () => ({
+    reverse: (): any => ({
       animation: reverseElement,
       start: () => {
         Animated.timing(reverseElement, {
@@ -31,6 +31,7 @@ const kluserMotion = (
           useNativeDriver,
         }).start();
       },
+      reverse: (): any => {},
     }),
   };
 };

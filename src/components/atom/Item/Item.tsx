@@ -1,9 +1,8 @@
 import React from 'react';
-import Title from '../../atom/Title/Title';
+import {IconProps, weatherIcons} from '../../../styles/icons';
 import Container, {
   City,
   Country,
-  Metric,
   Temperature,
   WeatherIcon,
   WeatherInfo,
@@ -11,21 +10,23 @@ import Container, {
   WeatherInfoText,
 } from './Item.styled';
 
-const weatherIcons = {
-  cloudDay: require('../../../assets/cloudDay.png'),
-  day: require('../../../assets/day.png'),
-  humidity: require('../../../assets/humidity.png'),
-  wind: require('../../../assets/wind.png'),
-};
+export interface ItemInterface {
+  temperature: number;
+  func: Function;
+  index: number;
+  city: string;
+  country: string;
+  status: IconProps;
+}
 
 const Item = ({
-  temperature = '',
+  temperature,
   func = () => {},
   index,
   city,
   country,
   status,
-}: any) => (
+}: ItemInterface) => (
   <Container marginRight={index % 2 === 0} onPress={() => func(index)}>
     <WeatherIcon source={weatherIcons[status]} />
     <Temperature>{temperature}°</Temperature>
