@@ -62,7 +62,10 @@ export const TitleIcon = styled.Image`
 `;
 
 export const ContentContainer = styled.View`
-  top: 47px;
+  position: absolute;
+  bottom: 15%;
+  left: 16px;
+  height: auto;
 `;
 
 export default Button;

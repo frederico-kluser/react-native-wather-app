@@ -19,5 +19,1196 @@ exports[`renders correctly 1`] = `
   >
     Today
   </Text>
+  <RCTScrollView
+    horizontal={true}
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "height": "15%",
+          "top": 23,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 50,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+            ]
+          }
+        >
+          10 AM
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/day.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "top": 13,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 25,
+                "top": 23,
+              },
+            ]
+          }
+        >
+          19°
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
 </View>
 `;

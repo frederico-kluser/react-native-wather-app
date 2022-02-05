@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "top": 62,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Monday
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/day.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      32°
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      22°
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Monday
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/day.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      32°
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      22°
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Monday
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/day.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      32°
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      22°
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Monday
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/day.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      32°
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      22°
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Monday
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/day.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      32°
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      22°
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Monday
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/day.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      32°
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      22°
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Monday
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/day.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      32°
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      22°
+    </Text>
+  </View>
+</View>
+`;

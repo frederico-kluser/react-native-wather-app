@@ -5,6 +5,7 @@ import {deviceHeight, deviceWidth, itemSize} from '../../../helpers/dimentions';
 import {weatherIcons} from '../../../styles/icons';
 import {PAGE_PADDING} from '../../../styles/theme';
 import HorizontalCarousel from '../../molecule/HorizontalCarousel/HorizontalCarousel';
+import VerticalList from '../../molecule/VerticalList/VerticalList';
 import Button, {
   BG,
   Container,
@@ -57,7 +58,6 @@ const ItemModal = ({
         style.height.animation,
         style.borderRadius.animation,
       )}>
-      <BG source={require('../../../assets/design.png')} />
       <Button
         index={index}
         onPress={() => {
@@ -78,7 +78,8 @@ const ItemModal = ({
         <TitleCity>{city}</TitleCity>
         <TitleTemperature>{temperature}°</TitleTemperature>
         <ContentContainer>
-          <HorizontalCarousel></HorizontalCarousel>
+          <HorizontalCarousel />
+          <VerticalList />
         </ContentContainer>
       </Container>
     </Animated.View>
