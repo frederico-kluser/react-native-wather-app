@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 17,
+        },
+      ]
+    }
+  >
+    Today
+  </Text>
+</View>
+`;

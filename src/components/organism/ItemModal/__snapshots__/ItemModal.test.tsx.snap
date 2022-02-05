@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   collapsable={false}
   style={
     Object {
-      "backgroundColor": "red",
+      "backgroundColor": "#fff",
       "borderRadius": 16,
       "height": 343,
       "left": 391,
@@ -17,6 +17,23 @@ exports[`renders correctly 1`] = `
     }
   }
 >
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/design.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "top": -230,
+          "width": 750,
+        },
+      ]
+    }
+  />
   <View
     accessible={true}
     collapsable={false}
@@ -30,32 +47,95 @@ exports[`renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "backgroundColor": "lightgray",
-        "height": 100,
+        "backgroundColor": "#000",
+        "height": 20,
         "left": 0,
         "opacity": 1,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
-        "paddingRight": 16,
-        "paddingTop": 16,
-        "position": "relative",
+        "position": "absolute",
         "top": 0,
-        "width": "100%",
+        "width": 20,
+        "zIndex": 2,
       }
     }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "height": 1334,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 64,
+          "width": 750,
+        },
+      ]
+    }
   >
-    <Text
+    <Image
       style={
         Array [
           Object {
-            "color": "#212121",
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "textTransform": "uppercase",
+            "height": 256,
+            "position": "absolute",
+            "right": -64,
+            "top": 0,
+            "width": 256,
           },
         ]
       }
     />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "black",
+            "fontSize": 30,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "black",
+            "fontSize": 96,
+          },
+        ]
+      }
+    >
+      °
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "top": 47,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 17,
+              },
+            ]
+          }
+        >
+          Today
+        </Text>
+      </View>
+    </View>
   </View>
 </View>
 `;

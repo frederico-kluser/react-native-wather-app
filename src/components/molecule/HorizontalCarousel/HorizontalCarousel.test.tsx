@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Title from './Title';
+import HorizontalCarousel from './HorizontalCarousel';
 
 test('renders correctly', () => {
-  const tree = renderer.create(<Title />).toJSON();
+  const tree = renderer.create(<HorizontalCarousel />).toJSON();
   expect(tree).toMatchSnapshot();
 });

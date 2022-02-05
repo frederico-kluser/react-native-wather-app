@@ -1,18 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import Item from '../../components/molecule/Item/Item';
+import Item from '../../components/atom/Item/Item';
 import ItemModal from '../../components/organism/ItemModal/ItemModal';
-import {
-  City,
-  Container,
-  Country,
-  Degree,
-  WeatherInfoIcon,
-  Metric,
-  NewItem,
-  WeatherIcon,
-  WeatherInfo,
-  WeatherInfoText,
-} from './Home.styled';
+import {Container} from './Home.styled';
 
 const Home = ({scrollY, setScroll}) => {
   const [selectedItem, setSelectedItem] = useState(-1);
@@ -31,7 +20,7 @@ const Home = ({scrollY, setScroll}) => {
       temperature: '12',
       maxTemperature: '14',
       minTemperature: '2',
-      status: 'cloudDay',
+      status: 'day',
     },
     {
       city: 'New York',
@@ -84,9 +73,9 @@ const Home = ({scrollY, setScroll}) => {
       {selectedItem >= 0 && (
         <ItemModal
           index={selectedItem}
-          name={cities[selectedItem].city}
           setSelectedItem={setSelectedItem}
           scrollY={scrollY}
+          {...cities[selectedItem]}
         />
       )}
       {cities.map((city: any, index: number) => (

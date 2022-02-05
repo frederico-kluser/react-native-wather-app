@@ -2,7 +2,14 @@
 import {useRef} from 'react';
 import {Animated} from 'react-native';
 
-const kluserMotion = (from: number, toValue: number, duration = 500) => {
+export const animationTime = 250;
+const useNativeDriver = false;
+
+const kluserMotion = (
+  from: number,
+  toValue: number,
+  duration = animationTime,
+) => {
   const element = useRef(new Animated.Value(from)).current;
   const reverseElement = useRef(new Animated.Value(toValue || 0)).current;
 
@@ -12,7 +19,7 @@ const kluserMotion = (from: number, toValue: number, duration = 500) => {
       Animated.timing(element, {
         toValue,
         duration,
-        useNativeDriver: false,
+        useNativeDriver,
       }).start();
     },
     reverse: () => ({
@@ -21,7 +28,7 @@ const kluserMotion = (from: number, toValue: number, duration = 500) => {
         Animated.timing(reverseElement, {
           toValue: from,
           duration,
-          useNativeDriver: false,
+          useNativeDriver,
         }).start();
       },
     }),

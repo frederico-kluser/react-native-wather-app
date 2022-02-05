@@ -28,8 +28,7 @@ const Item = ({
 }: any) => (
   <Container marginRight={index % 2 === 0} onPress={() => func(index)}>
     <WeatherIcon source={weatherIcons[status]} />
-    <Metric temperature={temperature}>°C</Metric>
-    <Temperature>{temperature}</Temperature>
+    <Temperature>{temperature}°</Temperature>
     <City>{city}</City>
     <Country>{country}</Country>
     <WeatherInfo>
