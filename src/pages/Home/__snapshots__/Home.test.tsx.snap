@@ -59,28 +59,15 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
+            "height": 64,
             "position": "absolute",
             "right": 10,
             "top": 10,
+            "width": 64,
           },
         ]
       }
     />
-    <Text
-      style={
-        Array [
-          Object {
-            "fontSize": 19,
-            "left": 55,
-            "position": "absolute",
-            "top": 10,
-          },
-        ]
-      }
-      temperature="10"
-    >
-      °C
-    </Text>
     <Text
       style={
         Array [
@@ -91,6 +78,7 @@ exports[`renders correctly 1`] = `
       }
     >
       10
+      °
     </Text>
     <Text
       style={
@@ -236,34 +224,21 @@ exports[`renders correctly 1`] = `
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/cloudDay.png",
+          "testUri": "../../../src/assets/day.png",
         }
       }
       style={
         Array [
           Object {
+            "height": 64,
             "position": "absolute",
             "right": 10,
             "top": 10,
+            "width": 64,
           },
         ]
       }
     />
-    <Text
-      style={
-        Array [
-          Object {
-            "fontSize": 19,
-            "left": 55,
-            "position": "absolute",
-            "top": 10,
-          },
-        ]
-      }
-      temperature="12"
-    >
-      °C
-    </Text>
     <Text
       style={
         Array [
@@ -274,6 +249,7 @@ exports[`renders correctly 1`] = `
       }
     >
       12
+      °
     </Text>
     <Text
       style={
@@ -426,28 +402,15 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
+            "height": 64,
             "position": "absolute",
             "right": 10,
             "top": 10,
+            "width": 64,
           },
         ]
       }
     />
-    <Text
-      style={
-        Array [
-          Object {
-            "fontSize": 19,
-            "left": 35,
-            "position": "absolute",
-            "top": 10,
-          },
-        ]
-      }
-      temperature="8"
-    >
-      °C
-    </Text>
     <Text
       style={
         Array [
@@ -458,6 +421,7 @@ exports[`renders correctly 1`] = `
       }
     >
       8
+      °
     </Text>
     <Text
       style={
@@ -609,28 +573,15 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
+            "height": 64,
             "position": "absolute",
             "right": 10,
             "top": 10,
+            "width": 64,
           },
         ]
       }
     />
-    <Text
-      style={
-        Array [
-          Object {
-            "fontSize": 19,
-            "left": 55,
-            "position": "absolute",
-            "top": 10,
-          },
-        ]
-      }
-      temperature="10"
-    >
-      °C
-    </Text>
     <Text
       style={
         Array [
@@ -641,6 +592,7 @@ exports[`renders correctly 1`] = `
       }
     >
       10
+      °
     </Text>
     <Text
       style={
@@ -793,28 +745,15 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
+            "height": 64,
             "position": "absolute",
             "right": 10,
             "top": 10,
+            "width": 64,
           },
         ]
       }
     />
-    <Text
-      style={
-        Array [
-          Object {
-            "fontSize": 19,
-            "left": 55,
-            "position": "absolute",
-            "top": 10,
-          },
-        ]
-      }
-      temperature="12"
-    >
-      °C
-    </Text>
     <Text
       style={
         Array [
@@ -825,6 +764,7 @@ exports[`renders correctly 1`] = `
       }
     >
       12
+      °
     </Text>
     <Text
       style={
@@ -976,28 +916,15 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
+            "height": 64,
             "position": "absolute",
             "right": 10,
             "top": 10,
+            "width": 64,
           },
         ]
       }
     />
-    <Text
-      style={
-        Array [
-          Object {
-            "fontSize": 19,
-            "left": 35,
-            "position": "absolute",
-            "top": 10,
-          },
-        ]
-      }
-      temperature="8"
-    >
-      °C
-    </Text>
     <Text
       style={
         Array [
@@ -1008,6 +935,7 @@ exports[`renders correctly 1`] = `
       }
     >
       8
+      °
     </Text>
     <Text
       style={
@@ -1160,28 +1088,15 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
+            "height": 64,
             "position": "absolute",
             "right": 10,
             "top": 10,
+            "width": 64,
           },
         ]
       }
     />
-    <Text
-      style={
-        Array [
-          Object {
-            "fontSize": 19,
-            "left": 55,
-            "position": "absolute",
-            "top": 10,
-          },
-        ]
-      }
-      temperature="10"
-    >
-      °C
-    </Text>
     <Text
       style={
         Array [
@@ -1192,6 +1107,7 @@ exports[`renders correctly 1`] = `
       }
     >
       10
+      °
     </Text>
     <Text
       style={

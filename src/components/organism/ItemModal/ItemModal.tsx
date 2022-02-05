@@ -1,12 +1,29 @@
 import React, {useState, useEffect} from 'react';
 import {Animated} from 'react-native';
-import kluserMotion from '../../../helpers/animation';
+import kluserMotion, {animationTime} from '../../../helpers/animation';
 import {deviceHeight, deviceWidth, itemSize} from '../../../helpers/dimentions';
+import {weatherIcons} from '../../../styles/icons';
 import {PAGE_PADDING} from '../../../styles/theme';
-import Title from '../../atom/Title/Title';
-import Container, {viewStyle} from './ItemModal.styled';
+import HorizontalCarousel from '../../molecule/HorizontalCarousel/HorizontalCarousel';
+import VerticalList from '../../molecule/VerticalList/VerticalList';
+import Button, {
+  BG,
+  Container,
+  ContentContainer,
+  TitleCity,
+  TitleIcon,
+  TitleTemperature,
+  viewStyle,
+} from './ItemModal.styled';
 
-const ItemModal = ({index, name, setSelectedItem, scrollY}: any) => {
+const ItemModal = ({
+  index,
+  city,
+  status,
+  setSelectedItem,
+  scrollY,
+  temperature,
+}: any) => {
   const distanceFromTop = Math.ceil((index + 1) / 2);
   const sizeMultiplier = distanceFromTop - 1;
   const marginMultiplier = sizeMultiplier
@@ -15,7 +32,6 @@ const ItemModal = ({index, name, setSelectedItem, scrollY}: any) => {
   const topSize = itemSize * sizeMultiplier + marginMultiplier + PAGE_PADDING;
 
   const leftSize = index % 2 === 0 ? 16 : deviceWidth - (itemSize + 16);
-  const animationTime = 500;
 
   const [style, setStyle] = useState({
     borderRadius: kluserMotion(16, 0),
@@ -42,7 +58,7 @@ const ItemModal = ({index, name, setSelectedItem, scrollY}: any) => {
         style.height.animation,
         style.borderRadius.animation,
       )}>
-      <Container
+      <Button
         index={index}
         onPress={() => {
           setStyle({
@@ -54,9 +70,17 @@ const ItemModal = ({index, name, setSelectedItem, scrollY}: any) => {
           });
           setTimeout(() => {
             setSelectedItem(-1);
-          }, animationTime + 50);
-        }}>
-        <Title text={name} />
+          }, animationTime);
+        }}
+      />
+      <Container>
+        <TitleIcon source={weatherIcons[status]} />
+        <TitleCity>{city}</TitleCity>
+        <TitleTemperature>{temperature}°</TitleTemperature>
+        <ContentContainer>
+          <HorizontalCarousel />
+          <VerticalList />
+        </ContentContainer>
       </Container>
     </Animated.View>
   );

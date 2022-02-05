@@ -39,28 +39,15 @@ exports[`renders correctly 1`] = `
     style={
       Array [
         Object {
+          "height": 64,
           "position": "absolute",
           "right": 10,
           "top": 10,
+          "width": 64,
         },
       ]
     }
   />
-  <Text
-    style={
-      Array [
-        Object {
-          "fontSize": 19,
-          "left": 15,
-          "position": "absolute",
-          "top": 10,
-        },
-      ]
-    }
-    temperature=""
-  >
-    °C
-  </Text>
   <Text
     style={
       Array [
@@ -71,6 +58,7 @@ exports[`renders correctly 1`] = `
     }
   >
     
+    °
   </Text>
   <Text
     style={

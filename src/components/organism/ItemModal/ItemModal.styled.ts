@@ -1,13 +1,11 @@
 import styled from 'styled-components/native';
+import {deviceHeight, deviceWidth} from '../../../helpers/dimentions';
 
-const Container = styled.TouchableOpacity`
-  background-color: lightgray;
-  height: 100px;
+export const BG = styled.Image`
+  position: absolute;
+  width: ${deviceWidth}px;
   left: 0px;
-  padding: 16px;
-  position: relative;
-  top: 0px;
-  width: 100%;
+  top: -230px;
 `;
 
 export const viewStyle = (
@@ -17,7 +15,7 @@ export const viewStyle = (
   height: any,
   borderRadius: any,
 ) => ({
-  backgroundColor: 'red',
+  backgroundColor: '#fff',
   borderRadius,
   height,
   left,
@@ -28,4 +26,46 @@ export const viewStyle = (
   zIndex: 1,
 });
 
-export default Container;
+const Button = styled.TouchableOpacity`
+  background-color: #000;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 20px;
+  z-index: 2;
+`;
+
+export const Container = styled.View`
+  padding: 16px;
+  padding-top: 64px;
+  width: ${deviceWidth}px;
+  height: ${deviceHeight}px;
+`;
+
+export const TitleCity = styled.Text`
+  font-size: 30px;
+  color: black;
+`;
+
+export const TitleTemperature = styled.Text`
+  font-size: 96px;
+  color: black;
+`;
+
+export const TitleIcon = styled.Image`
+  height: 256px;
+  position: absolute;
+  right: -64px;
+  top: 0px;
+  width: 256px;
+`;
+
+export const ContentContainer = styled.View`
+  position: absolute;
+  bottom: 15%;
+  left: 16px;
+  height: auto;
+`;
+
+export default Button;

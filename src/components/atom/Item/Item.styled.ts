@@ -28,17 +28,12 @@ export const Country = styled.Text`
   margin-top: 6px;
 `;
 
-export const Metric = styled.Text`
-  font-size: 19px;
-  left: ${({temperature}) => temperature.length * 20 + 15}px;
-  position: absolute;
-  top: 10px;
-`;
-
 export const WeatherIcon = styled.Image`
+  height: 64px;
   position: absolute;
   right: 10px;
   top: 10px;
+  width: 64px;
 `;
 
 export const WeatherInfo = styled.View`
