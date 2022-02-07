@@ -1,12 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Home from './Home';
+import Search from './Search';
 
 jest.useFakeTimers();
 
 test('renders correctly', () => {
-  const tree = renderer
-    .create(<Home scrollY={0} setScroll={() => {}} />)
-    .toJSON();
+  const tree = renderer.create(<Search options={[]} />).toJSON();
   expect(tree).toMatchSnapshot();
 });
