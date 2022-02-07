@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import {itemSize} from '../../../helpers/dimentions';
+import {BORDER_RADIUS, ITEM_MARGIN, SHADOW_EFFECT} from '../../../styles/theme';
 
 interface ContainerInterface {
   marginRight: boolean;
@@ -10,13 +11,12 @@ interface WeatherInfoInterface {
 }
 
 export const Container = styled.TouchableOpacity<ContainerInterface>`
-  ${({marginRight}) => marginRight && 'margin-right: 32px;'}
-  background-color: #fff;
-  border-radius: 16px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  ${({marginRight}) => marginRight && `margin-right: ${ITEM_MARGIN}px;`}
+  ${SHADOW_EFFECT}
+  border-radius: ${BORDER_RADIUS}px;
   box-sizing: border-box;
   height: ${itemSize}px;
-  margin-bottom: 32px;
+  margin-bottom: ${ITEM_MARGIN}px;
   padding: 16px;
   width: ${itemSize}px;
 `;

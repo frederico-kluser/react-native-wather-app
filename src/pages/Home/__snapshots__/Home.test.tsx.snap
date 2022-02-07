@@ -16,6 +16,43 @@ exports[`renders correctly 1`] = `
   }
 >
   <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": 16,
+          "marginBottom": 32,
+          "paddingLeft": 16,
+          "paddingRight": 48,
+          "shadowColor": "rgba(0, 0, 0, 0.24)",
+          "shadowOffset": Object {
+            "height": 3,
+            "width": 0,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 8,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      onSubmitEditing={[Function]}
+      placeholder="Digite o nome da cidade"
+      quandity={0}
+      style={
+        Array [
+          Object {
+            "height": 48,
+            "width": "100%",
+          },
+        ]
+      }
+      value=""
+    />
+  </View>
+  <View
     accessible={true}
     collapsable={false}
     focusable={true}

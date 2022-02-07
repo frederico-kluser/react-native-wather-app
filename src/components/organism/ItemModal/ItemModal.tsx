@@ -3,7 +3,7 @@ import {Animated} from 'react-native';
 import kluserMotion, {animationTime} from '../../../helpers/animation';
 import {deviceHeight, deviceWidth, itemSize} from '../../../helpers/dimentions';
 import {IconProps, weatherIcons} from '../../../styles/icons';
-import {PAGE_PADDING} from '../../../styles/theme';
+import {INPUT_HEIGHT, ITEM_MARGIN, GLOBAL_PADDING} from '../../../styles/theme';
 import HorizontalCarousel from '../../molecule/HorizontalCarousel/HorizontalCarousel';
 import VerticalList from '../../molecule/VerticalList/VerticalList';
 import Button, {
@@ -27,6 +27,7 @@ export interface ItemModalInterface {
 const ItemModal = ({
   index,
   city,
+  optionsQuantity,
   status,
   setSelectedItem,
   scrollY,
@@ -35,9 +36,16 @@ const ItemModal = ({
   const distanceFromTop = Math.ceil((index + 1) / 2);
   const sizeMultiplier = distanceFromTop - 1;
   const marginMultiplier = sizeMultiplier
-    ? PAGE_PADDING * 2 * sizeMultiplier
+    ? GLOBAL_PADDING * 2 * sizeMultiplier
     : 0;
-  const topSize = itemSize * sizeMultiplier + marginMultiplier + PAGE_PADDING;
+  const optionsTotalHeight = optionsQuantity * INPUT_HEIGHT;
+  const inputHeight = INPUT_HEIGHT + ITEM_MARGIN;
+  const topSize =
+    itemSize * sizeMultiplier +
+    marginMultiplier +
+    GLOBAL_PADDING +
+    inputHeight +
+    optionsTotalHeight;
 
   const leftSize = index % 2 === 0 ? 16 : deviceWidth - (itemSize + 16);
 
