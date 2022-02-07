@@ -2,12 +2,11 @@ import React, {useState, useEffect} from 'react';
 import {Animated} from 'react-native';
 import kluserMotion, {animationTime} from '../../../helpers/animation';
 import {deviceHeight, deviceWidth, itemSize} from '../../../helpers/dimentions';
-import {weatherIcons} from '../../../styles/icons';
+import {IconProps, weatherIcons} from '../../../styles/icons';
 import {PAGE_PADDING} from '../../../styles/theme';
 import HorizontalCarousel from '../../molecule/HorizontalCarousel/HorizontalCarousel';
 import VerticalList from '../../molecule/VerticalList/VerticalList';
 import Button, {
-  BG,
   Container,
   ContentContainer,
   TitleCity,
@@ -16,6 +15,15 @@ import Button, {
   viewStyle,
 } from './ItemModal.styled';
 
+export interface ItemModalInterface {
+  city: string;
+  index: number;
+  scrollY: number;
+  setSelectedItem: Function;
+  status: IconProps;
+  temperature: number;
+}
+
 const ItemModal = ({
   index,
   city,
@@ -23,7 +31,7 @@ const ItemModal = ({
   setSelectedItem,
   scrollY,
   temperature,
-}: any) => {
+}: ItemModalInterface) => {
   const distanceFromTop = Math.ceil((index + 1) / 2);
   const sizeMultiplier = distanceFromTop - 1;
   const marginMultiplier = sizeMultiplier

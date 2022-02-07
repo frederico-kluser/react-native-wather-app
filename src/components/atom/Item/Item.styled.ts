@@ -1,13 +1,21 @@
 import styled from 'styled-components/native';
 import {itemSize} from '../../../helpers/dimentions';
 
-export const Container = styled.TouchableOpacity`
-  border-radius: 16px;
+interface ContainerInterface {
+  marginRight: boolean;
+}
+
+interface WeatherInfoInterface {
+  rightPosition?: boolean;
+}
+
+export const Container = styled.TouchableOpacity<ContainerInterface>`
+  ${({marginRight}) => marginRight && 'margin-right: 32px;'}
   background-color: #fff;
+  border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   box-sizing: border-box;
   height: ${itemSize}px;
-  ${({marginRight}) => marginRight && 'margin-right: 32px;'}
   margin-bottom: 32px;
   padding: 16px;
   width: ${itemSize}px;
@@ -36,16 +44,16 @@ export const WeatherIcon = styled.Image`
   width: 64px;
 `;
 
-export const WeatherInfo = styled.View`
-  flex-direction: row;
-  position: absolute;
+export const WeatherInfo = styled.View<WeatherInfoInterface>`
   ${({rightPosition}) => (rightPosition ? 'right' : 'left')}: 16px;
   bottom: 16px;
+  flex-direction: row;
+  position: absolute;
 `;
 
 export const WeatherInfoIcon = styled.Image`
-  width: 15px;
   height: 15px;
+  width: 15px;
 `;
 
 export const WeatherInfoText = styled.Text`
