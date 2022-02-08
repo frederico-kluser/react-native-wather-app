@@ -32,7 +32,7 @@ const Search = ({
         options[index].structured_formatting.main_text,
       );
       console.log(data, 'data');
-      const data2 = await getCityWeatherNextDaysInfo(
+      const data2: any = await getCityWeatherNextDaysInfo(
         data.coord.lat,
         data.coord.lon,
       );
@@ -76,7 +76,6 @@ const Search = ({
         value={inputFilter}
         onChangeText={setInputFilter}
         onSubmitEditing={() => handleInput()}
-        quandity={options.length}
       />
       {options.map(({description}: any, index: number) => {
         let item: any = (
@@ -87,7 +86,7 @@ const Search = ({
         firstItem = -1;
 
         // cities
-        cities.forEach(city => {
+        cities.forEach((city: any) => {
           if (city.description === description) {
             item = null;
           } else if (firstItem === -1) {
