@@ -27,6 +27,10 @@ const Home = ({scrollY, setScroll}: HomeInterface) => {
   }, []);
 
   useEffect(() => {
+    save(JSON.stringify(cities));
+  }, [cities]);
+
+  useEffect(() => {
     setScroll(selectedItem === -1);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedItem]);

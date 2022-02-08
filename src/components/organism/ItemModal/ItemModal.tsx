@@ -101,6 +101,14 @@ const ItemModal = ({
     height: kluserMotion(itemSize, deviceHeight),
   });
 
+  const styleAnimation = viewStyle(
+    style.left.animation,
+    style.top.animation,
+    style.width.animation,
+    style.height.animation,
+    style.borderRadius.animation,
+  );
+
   useEffect(() => {
     style.borderRadius.start();
     style.top.start();
@@ -110,14 +118,7 @@ const ItemModal = ({
   }, [style]);
 
   return (
-    <Animated.View
-      style={viewStyle(
-        style.left.animation,
-        style.top.animation,
-        style.width.animation,
-        style.height.animation,
-        style.borderRadius.animation,
-      )}>
+    <Animated.View style={styleAnimation}>
       <FavoriteButton onPress={handleFavorite} favorite={favorite} />
       <CloseButton onPress={handleClose} />
       <Container>

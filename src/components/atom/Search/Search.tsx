@@ -39,9 +39,7 @@ const Search = ({
       console.log(data, 'data');
       console.log(item, 'item');
       setCities((prevState: any[]) => {
-        const newValue = [...prevState, item];
-        save(JSON.stringify(newValue));
-        return newValue;
+        return [...prevState, item];
       });
     }
     setInputFilter('');
