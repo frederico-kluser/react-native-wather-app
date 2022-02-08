@@ -177,7 +177,7 @@ exports[`renders correctly 1`] = `
             ]
           }
         >
-          quarta
+          Terça
         </Text>
         <Image
           source={
@@ -250,7 +250,7 @@ exports[`renders correctly 1`] = `
             ]
           }
         >
-          quinta
+          Quarta
         </Text>
         <Image
           source={
@@ -323,7 +323,7 @@ exports[`renders correctly 1`] = `
             ]
           }
         >
-          sexta
+          Quinta
         </Text>
         <Image
           source={
@@ -396,7 +396,7 @@ exports[`renders correctly 1`] = `
             ]
           }
         >
-          sábado
+          Sexta
         </Text>
         <Image
           source={
@@ -469,7 +469,7 @@ exports[`renders correctly 1`] = `
             ]
           }
         >
-          domingo
+          Sábado
         </Text>
         <Image
           source={
@@ -542,7 +542,7 @@ exports[`renders correctly 1`] = `
             ]
           }
         >
-          segunda
+          Domingo
         </Text>
         <Image
           source={
@@ -615,7 +615,7 @@ exports[`renders correctly 1`] = `
             ]
           }
         >
-          terça
+          Segunda
         </Text>
         <Image
           source={

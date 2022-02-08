@@ -1,5 +1,6 @@
 import React from 'react';
 import convertKelvinToCelsius from '../../../helpers/conversor';
+import language from '../../../helpers/translate';
 import {weatherIcons} from '../../../styles/icons';
 import Container, {
   DayOfWeek,
@@ -10,15 +11,7 @@ import Container, {
 
 const LargeItem = ({icon, min, max, text}: any) => {
   const date = new Date(parseInt(`${text}000`));
-  const daysOfWeek = [
-    'segunda',
-    'terça',
-    'quarta',
-    'quinta',
-    'sexta',
-    'sábado',
-    'domingo',
-  ];
+  const daysOfWeek = language.daysOfWeek;
 
   return (
     <Container>

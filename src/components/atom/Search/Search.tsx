@@ -4,6 +4,7 @@ import getCityWeatherInfo, {
   getCityWeatherNextDaysInfo,
 } from '../../../api/cityWeatherInfo';
 import convertKelvinToCelsius from '../../../helpers/conversor';
+import language from '../../../helpers/translate';
 import {closeIcon} from '../../../styles/icons';
 import Container, {
   InputSearch,
@@ -70,7 +71,7 @@ const Search = ({
   return (
     <Container>
       <InputSearch
-        placeholder="Digite o nome da cidade"
+        placeholder={language.cityNameInput}
         value={inputFilter}
         onChangeText={setInputFilter}
         onSubmitEditing={() => handleInput()}

@@ -1,4 +1,5 @@
 import React from 'react';
+import language from '../../../helpers/translate';
 import {
   closeIcon2,
   heartFullIcon,
@@ -17,7 +18,7 @@ import {
 export const DeleteButton = ({onPress}: any) => (
   <DeleteContainer onPress={onPress}>
     <DeleteIcon source={trashIcon} />
-    <DeleteMessage>Deletar Item</DeleteMessage>
+    <DeleteMessage>{language.deleteItem}</DeleteMessage>
   </DeleteContainer>
 );
 

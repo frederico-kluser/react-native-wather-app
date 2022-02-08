@@ -4,11 +4,16 @@ import {RED} from '../../../styles/colors';
 import {BORDER_RADIUS, ITEM_MARGIN, SHADOW_EFFECT} from '../../../styles/theme';
 
 interface ContainerInterface {
+  favorite: boolean;
   marginRight: boolean;
 }
 
 interface WeatherInfoInterface {
   rightPosition?: boolean;
+}
+
+interface TemperatureInterface {
+  favorite?: boolean;
 }
 
 export const Container = styled.TouchableOpacity<ContainerInterface>`
@@ -23,7 +28,7 @@ export const Container = styled.TouchableOpacity<ContainerInterface>`
   width: ${itemSize}px;
 `;
 
-export const Temperature = styled.Text`
+export const Temperature = styled.Text<TemperatureInterface>`
   ${({favorite}) => favorite && `color: ${RED};`})}
   font-size: 37px;
 `;

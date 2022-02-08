@@ -11,12 +11,15 @@ import Container, {
 } from './Item.styled';
 
 export interface ItemInterface {
-  temperature: number;
-  func: Function;
-  index: number;
   city: string;
   country: string;
+  favorite: boolean;
+  func: Function;
+  humidity: number;
+  index: number;
   status: IconProps;
+  temperature: number;
+  wind: number;
 }
 
 const Item = ({
