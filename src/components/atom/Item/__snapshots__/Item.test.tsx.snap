@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "borderRadius": 16,
+      "boxSizing": "border-box",
+      "height": 343,
+      "marginBottom": 32,
+      "marginRight": 32,
+      "opacity": 1,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 16,
+      "shadowColor": "rgba(0, 0, 0, 0.24)",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 8,
+      "width": 343,
+    }
+  }
+>
+  <Image
+    style={
+      Array [
+        Object {
+          "height": 64,
+          "position": "absolute",
+          "right": 10,
+          "top": 10,
+          "width": 64,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 37,
+        },
+      ]
+    }
+  >
+    10
+    °
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 12,
+          "fontWeight": "500",
+          "marginTop": 8,
+        },
+      ]
+    }
+  >
+    São Paulo
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 12,
+          "marginTop": 6,
+        },
+      ]
+    }
+  >
+    Brazil
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "bottom": 16,
+          "flexDirection": "row",
+          "left": 16,
+          "position": "absolute",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/humidity.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 15,
+            "width": 15,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      %
+    </Text>
+  </View>
+  <View
+    rightPosition={true}
+    style={
+      Array [
+        Object {
+          "bottom": 16,
+          "flexDirection": "row",
+          "position": "absolute",
+          "right": 16,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/wind.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 15,
+            "width": 15,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+       km/h
+    </Text>
+  </View>
+</View>
+`;

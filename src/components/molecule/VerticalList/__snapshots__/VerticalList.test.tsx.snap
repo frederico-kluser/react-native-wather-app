@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "top": "8%",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "capitalize",
+          },
+        ]
+      }
+    >
+      Terça
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/rain.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "top": -8,
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "red",
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      0
+      °
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "blue",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      6
+      °
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "capitalize",
+          },
+        ]
+      }
+    >
+      Quarta
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/sun.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "top": -8,
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "red",
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      0
+      °
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "blue",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      6
+      °
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "capitalize",
+          },
+        ]
+      }
+    >
+      Quinta
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloud.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "top": -8,
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "red",
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      1
+      °
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "blue",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      8
+      °
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "capitalize",
+          },
+        ]
+      }
+    >
+      Sexta
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/sun.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "top": -8,
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "red",
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      0
+      °
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "blue",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      7
+      °
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "capitalize",
+          },
+        ]
+      }
+    >
+      Sábado
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloud.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "top": -8,
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "red",
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      4
+      °
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "blue",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      13
+      °
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "capitalize",
+          },
+        ]
+      }
+    >
+      Domingo
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/sunSnow.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "top": -8,
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "red",
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      -3
+      °
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "blue",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      0
+      °
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": "6%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "capitalize",
+          },
+        ]
+      }
+    >
+      Segunda
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/cloudWind.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": "47%",
+            "position": "absolute",
+            "top": -8,
+            "width": 32,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "red",
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "left": "80%",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      -5
+      °
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "blue",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "position": "absolute",
+            "right": "0%",
+          },
+        ]
+      }
+    >
+      0
+      °
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": "6%",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 13,
+          "fontWeight": "500",
+          "textTransform": "capitalize",
+        },
+      ]
+    }
+  />
+  <Image
+    style={
+      Array [
+        Object {
+          "height": 32,
+          "left": "47%",
+          "position": "absolute",
+          "top": -8,
+          "width": 32,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "red",
+          "fontSize": 13,
+          "fontWeight": "bold",
+          "left": "80%",
+          "position": "absolute",
+        },
+      ]
+    }
+  >
+    NaN
+    °
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "blue",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "position": "absolute",
+          "right": "0%",
+        },
+      ]
+    }
+  >
+    NaN
+    °
+  </Text>
+</View>
+`;

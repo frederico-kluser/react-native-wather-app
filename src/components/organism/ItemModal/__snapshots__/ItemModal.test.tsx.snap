@@ -1,0 +1,724 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "borderRadius": 16,
+      "height": 343,
+      "left": 391,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": NaN,
+      "width": 343,
+      "zIndex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "left": 16,
+        "opacity": 1,
+        "position": "absolute",
+        "top": 16,
+        "zIndex": 2,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/heart.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "width": 32,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "position": "absolute",
+        "right": 16,
+        "top": 16,
+        "zIndex": 2,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/close2.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "width": 32,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 1334,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 64,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/sun.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 256,
+            "position": "absolute",
+            "right": -64,
+            "top": 0,
+            "width": 256,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "black",
+            "fontSize": 30,
+          },
+        ]
+      }
+    >
+      New York
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "black",
+            "fontSize": 96,
+          },
+        ]
+      }
+    >
+      6
+      °
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "top": "8%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "capitalize",
+              },
+            ]
+          }
+        >
+          Terça
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/rain.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          0
+          °
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          6
+          °
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "capitalize",
+              },
+            ]
+          }
+        >
+          Quarta
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sun.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          0
+          °
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          6
+          °
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "capitalize",
+              },
+            ]
+          }
+        >
+          Quinta
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/cloud.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          1
+          °
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          8
+          °
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "capitalize",
+              },
+            ]
+          }
+        >
+          Sexta
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sun.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          0
+          °
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          7
+          °
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "capitalize",
+              },
+            ]
+          }
+        >
+          Sábado
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/cloud.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          4
+          °
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          13
+          °
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "capitalize",
+              },
+            ]
+          }
+        >
+          Domingo
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sunSnow.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          -3
+          °
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          0
+          °
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "capitalize",
+              },
+            ]
+          }
+        >
+          Segunda
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/cloudWind.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          -5
+          °
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          0
+          °
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "bottom": "11%",
+          "left": 0,
+          "opacity": 1,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/trash.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 20,
+              "left": "50%",
+              "position": "absolute",
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "left": 16,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Deletar Item
+      </Text>
+    </View>
+  </View>
+</View>
+`;
