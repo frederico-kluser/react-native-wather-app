@@ -37,11 +37,6 @@ exports[`renders correctly 1`] = `
   }
 >
   <Image
-    source={
-      Object {
-        "testUri": "../../../src/assets/day.png",
-      }
-    }
     style={
       Array [
         Object {
@@ -128,7 +123,7 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      20%
+      %
     </Text>
   </View>
   <View
@@ -169,7 +164,7 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      7 km/h
+       km/h
     </Text>
   </View>
 </View>

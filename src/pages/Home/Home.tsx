@@ -9,70 +9,11 @@ interface HomeInterface {
   setScroll: Function;
 }
 
-const mockCities = [
-  {
-    city: 'São Paulo',
-    country: 'Brazil',
-    temperature: 10,
-    maxTemperature: 12,
-    minTemperature: 2,
-    status: 'cloudDay',
-  },
-  {
-    city: 'Rio de Janeiro',
-    country: 'Brazil',
-    temperature: 12,
-    maxTemperature: 14,
-    minTemperature: 2,
-    status: 'day',
-  },
-  {
-    city: 'New York',
-    country: 'United States',
-    temperature: 8,
-    maxTemperature: 10,
-    minTemperature: 2,
-    status: 'cloudDay',
-  },
-  {
-    city: 'Orlando',
-    country: 'United States',
-    temperature: 10,
-    maxTemperature: 12,
-    minTemperature: 2,
-    status: 'cloudDay',
-  },
-  {
-    city: 'London',
-    country: 'United Kingdom',
-    temperature: 12,
-    maxTemperature: 14,
-    minTemperature: 2,
-    status: 'cloudDay',
-  },
-  {
-    city: 'Tokyo',
-    country: 'Japan',
-    temperature: 8,
-    maxTemperature: 10,
-    minTemperature: 2,
-    status: 'cloudDay',
-  },
-  {
-    city: 'Dubai',
-    country: 'United Arab Emirates',
-    temperature: '10',
-    maxTemperature: '12',
-    minTemperature: '2',
-    status: 'cloudDay',
-  },
-];
-
 const Home = ({scrollY, setScroll}: HomeInterface) => {
   const [selectedItem, setSelectedItem] = useState(-1);
   const [inputFilter, setInputFilter] = useState('');
   const [options, setOptions] = useState([]);
-  const [cities, setCities] = useState(mockCities);
+  const [cities, setCities] = useState([]);
 
   useEffect(() => {
     setScroll(selectedItem === -1);
@@ -86,6 +27,7 @@ const Home = ({scrollY, setScroll}: HomeInterface) => {
         setInputFilter={setInputFilter}
         options={options}
         setOptions={setOptions}
+        setCities={setCities}
       />
       <>
         {selectedItem >= 0 && (

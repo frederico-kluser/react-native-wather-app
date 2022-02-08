@@ -24,7 +24,7 @@ exports[`renders correctly 1`] = `
   <Image
     source={
       Object {
-        "testUri": "../../../src/assets/day.png",
+        "testUri": "../../../src/assets/rain.png",
       }
     }
     style={
