@@ -75,7 +75,6 @@ const Search = ({
         placeholder={language.cityNameInput}
         value={inputFilter}
         onChangeText={setInputFilter}
-        onSubmitEditing={() => handleInput()}
       />
       {options.map(({description}: any, index: number) => {
         let item: any = (

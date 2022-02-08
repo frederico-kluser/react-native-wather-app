@@ -1,9 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import Item from '../../components/atom/Item/Item';
 import ItemModal from '../../components/organism/ItemModal/ItemModal';
-import {Container} from './Home.styled';
+import {Container, Logo} from './Home.styled';
 import Search from '../../components/atom/Search/Search';
 import {load, save} from '../../helpers/storage';
+import {Image} from 'react-native';
+import {spartaLabsIcons} from '../../styles/icons';
 
 interface HomeInterface {
   scrollY: number;
@@ -45,6 +47,7 @@ const Home = ({scrollY, setScroll}: HomeInterface) => {
         setCities={setCities}
         cities={cities}
       />
+      {!cities.length && <Logo source={spartaLabsIcons} />}
       <>
         {selectedItem >= 0 && (
           <ItemModal

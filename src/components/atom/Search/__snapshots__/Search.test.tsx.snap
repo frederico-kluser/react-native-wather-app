@@ -23,7 +23,6 @@ exports[`renders correctly 1`] = `
   }
 >
   <TextInput
-    onSubmitEditing={[Function]}
     placeholder="Digite o nome da cidade"
     style={
       Array [

@@ -86,3 +86,5 @@ export const trashIcon = require('../assets/trash.png');
 
 export const heartIcon = require('../assets/heart.png');
 export const heartFullIcon = require('../assets/heartFull.png');
+
+export const spartaLabsIcons = require('../assets/spartaLabs.png');
