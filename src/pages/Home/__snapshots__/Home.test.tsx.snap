@@ -38,9 +38,7 @@ exports[`renders correctly 1`] = `
   >
     <TextInput
       onChangeText={[Function]}
-      onSubmitEditing={[Function]}
       placeholder="Digite o nome da cidade"
-      quandity={0}
       style={
         Array [
           Object {
@@ -52,5 +50,23 @@ exports[`renders correctly 1`] = `
       value=""
     />
   </View>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/spartaLabs.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 200,
+          "left": 259,
+          "marginTop": 350,
+          "position": "relative",
+          "width": 200,
+        },
+      ]
+    }
+  />
 </View>
 `;

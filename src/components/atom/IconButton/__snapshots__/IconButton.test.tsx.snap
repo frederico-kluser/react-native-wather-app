@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly close button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+      "position": "absolute",
+      "right": 16,
+      "top": 16,
+      "zIndex": 2,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/close2.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 32,
+          "width": 32,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly delete button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "bottom": "11%",
+      "left": 0,
+      "opacity": 1,
+      "position": "absolute",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/trash.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 20,
+          "left": "50%",
+          "position": "absolute",
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "left": 16,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Deletar Item
+  </Text>
+</View>
+`;
+
+exports[`renders correctly favorite button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "left": 16,
+      "opacity": 1,
+      "position": "absolute",
+      "top": 16,
+      "zIndex": 2,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/heart.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 32,
+          "width": 32,
+        },
+      ]
+    }
+  />
+</View>
+`;

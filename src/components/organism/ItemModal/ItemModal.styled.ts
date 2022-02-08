@@ -31,20 +31,6 @@ export const viewStyle = (
   ...viewStyleObj,
 });
 
-interface ButtonInterface {
-  index: number;
-}
-
-const Button = styled.TouchableOpacity<ButtonInterface>`
-  background-color: #000;
-  height: 20px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 20px;
-  z-index: 2;
-`;
-
 export const Container = styled.View`
   padding: 16px;
   padding-top: 64px;
@@ -76,5 +62,3 @@ export const ContentContainer = styled.View`
   left: 16px;
   height: auto;
 `;
-
-export default Button;

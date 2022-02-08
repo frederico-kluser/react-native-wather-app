@@ -1,4 +1,6 @@
 import React from 'react';
+import convertKelvinToCelsius from '../../../helpers/conversor';
+import language from '../../../helpers/translate';
 import {weatherIcons} from '../../../styles/icons';
 import Container, {
   DayOfWeek,
@@ -7,13 +9,18 @@ import Container, {
   WeatherIcon,
 } from './LargeItem.styled';
 
-const LargeItem = ({}: any) => (
-  <Container>
-    <DayOfWeek>Monday</DayOfWeek>
-    <WeatherIcon source={weatherIcons.thunderstorm} />
-    <MaxTemperature>32°</MaxTemperature>
-    <MinTemperature>22°</MinTemperature>
-  </Container>
-);
+const LargeItem = ({icon, min, max, text}: any) => {
+  const date = new Date(parseInt(`${text}000`));
+  const daysOfWeek = language.daysOfWeek;
+
+  return (
+    <Container>
+      <DayOfWeek>{daysOfWeek[date.getDay()]}</DayOfWeek>
+      <WeatherIcon source={weatherIcons[icon]} />
+      <MaxTemperature>{convertKelvinToCelsius(min)}°</MaxTemperature>
+      <MinTemperature>{convertKelvinToCelsius(max)}°</MinTemperature>
+    </Container>
+  );
+};
 
 export default LargeItem;
