@@ -21,7 +21,11 @@ const Search = ({
   setInputFilter,
   setOptions,
 }: any) => {
-  const handleInput = async (index = 0) => {
+  let firstItem = -1;
+
+  const handleInput = async (index = firstItem) => {
+    setInputFilter('');
+
     if (options.length) {
       const data: any = await getCityWeatherInfo(
         options[index].structured_formatting.main_text,
@@ -50,7 +54,6 @@ const Search = ({
         return [...prevState, item];
       });
     }
-    setInputFilter('');
   };
 
   useEffect(() => {
@@ -73,11 +76,25 @@ const Search = ({
         onSubmitEditing={() => handleInput()}
         quandity={options.length}
       />
-      {options.map(({description}: any, index: number) => (
-        <Option key={description} onPress={() => handleInput(index)}>
-          <OptionText>{description}</OptionText>
-        </Option>
-      ))}
+      {options.map(({description}: any, index: number) => {
+        let item: any = (
+          <Option key={description} onPress={() => handleInput(index)}>
+            <OptionText>{description}</OptionText>
+          </Option>
+        );
+        firstItem = -1;
+
+        // cities
+        cities.forEach(city => {
+          if (city.description === description) {
+            item = null;
+          } else if (firstItem === -1) {
+            firstItem = index;
+          }
+        });
+
+        return item;
+      })}
       {!!inputFilter && (
         <SearchButton onPress={() => setInputFilter('')}>
           <SearchIcon source={closeIcon} />
