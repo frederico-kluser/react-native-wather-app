@@ -2,16 +2,21 @@ import React from 'react';
 import LargeItem from '../../atom/LargeItem/LargeItem';
 import Container from './VerticalList.styled';
 
-const VerticalList = ({}: any) => {
-  const items = [1, 2, 3, 4, 5, 6, 7];
-
-  return (
-    <Container>
-      {items.map(item => (
-        <LargeItem key={item} />
-      ))}
-    </Container>
-  );
-};
+const VerticalList = ({nextDays}: any) => (
+  <Container>
+    {nextDays.map(
+      ({dt, temp, weather}: any, index) =>
+        index < 7 && (
+          <LargeItem
+            key={dt}
+            text={dt}
+            min={temp.min}
+            max={temp.max}
+            icon={weather[0].description}
+          />
+        ),
+    )}
+  </Container>
+);
 
 export default VerticalList;

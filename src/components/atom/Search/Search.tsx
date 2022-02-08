@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
 import getCityNames from '../../../api/cityNames';
-import getCityWeatherInfo from '../../../api/cityWeatherInfo';
+import getCityWeatherInfo, {
+  getCityWeatherNextDaysInfo,
+} from '../../../api/cityWeatherInfo';
 import convertKelvinToCelsius from '../../../helpers/conversor';
-import {save} from '../../../helpers/storage';
 import {closeIcon} from '../../../styles/icons';
 import Container, {
   InputSearch,
@@ -13,6 +14,7 @@ import Container, {
 } from './Search.styled';
 
 const Search = ({
+  cities,
   inputFilter,
   options,
   setCities,
@@ -24,6 +26,11 @@ const Search = ({
       const data: any = await getCityWeatherInfo(
         options[index].structured_formatting.main_text,
       );
+      const data2 = await getCityWeatherNextDaysInfo(
+        data.coord.lat,
+        data.coord.lon,
+      );
+
       const item = {
         city: data.name,
         country: data.sys.country,
@@ -32,6 +39,7 @@ const Search = ({
         humidity: parseInt(data.main.humidity),
         maxTemperature: convertKelvinToCelsius(data.main.temp_max),
         minTemperature: convertKelvinToCelsius(data.main.temp_min),
+        nextDays: data2.daily,
         status: data.weather[0].description,
         temperature: convertKelvinToCelsius(data.main.temp),
         wind: parseInt(data.wind.speed),

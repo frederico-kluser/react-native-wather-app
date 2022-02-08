@@ -43,6 +43,7 @@ const Home = ({scrollY, setScroll}: HomeInterface) => {
         options={options}
         setOptions={setOptions}
         setCities={setCities}
+        cities={cities}
       />
       <>
         {selectedItem >= 0 && (

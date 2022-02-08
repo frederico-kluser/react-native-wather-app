@@ -7,7 +7,7 @@ const Container = styled.View`
 export const DayOfWeek = styled.Text`
   font-size: 13px;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: capitalize;
 `;
 
 export const WeatherIcon = styled.Image`
@@ -21,7 +21,7 @@ export const WeatherIcon = styled.Image`
 export const MaxTemperature = styled.Text`
   position: absolute;
   left: 80%;
-  font-size: 15px;
+  font-size: 13px;
   color: red;
   font-weight: bold;
 `;
@@ -29,7 +29,7 @@ export const MaxTemperature = styled.Text`
 export const MinTemperature = styled.Text`
   position: absolute;
   right: 0%;
-  font-size: 13px;
+  font-size: 12px;
   color: blue;
   font-weight: bold;
 `;

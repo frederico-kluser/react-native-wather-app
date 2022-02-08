@@ -32,6 +32,7 @@ const ItemModal = ({
   description,
   favorite,
   index,
+  nextDays,
   optionsQuantity,
   scrollY,
   setCities,
@@ -125,7 +126,7 @@ const ItemModal = ({
         <TitleIcon source={weatherIcons[status]} />
         <TitleCity>{city}</TitleCity>
         <TitleTemperature>{temperature}°</TitleTemperature>
-        <VerticalList />
+        <VerticalList nextDays={nextDays} />
         <DeleteButton onPress={handleDelete} />
       </Container>
     </Animated.View>

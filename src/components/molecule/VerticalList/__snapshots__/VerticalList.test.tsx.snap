@@ -25,17 +25,17 @@ exports[`renders correctly 1`] = `
           Object {
             "fontSize": 13,
             "fontWeight": "500",
-            "textTransform": "uppercase",
+            "textTransform": "capitalize",
           },
         ]
       }
     >
-      Monday
+      quarta
     </Text>
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/sunStorm.png",
+          "testUri": "../../../src/assets/rain.png",
         }
       }
       style={
@@ -55,7 +55,7 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "color": "red",
-            "fontSize": 15,
+            "fontSize": 13,
             "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
@@ -63,14 +63,15 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      32°
+      0
+      °
     </Text>
     <Text
       style={
         Array [
           Object {
             "color": "blue",
-            "fontSize": 13,
+            "fontSize": 12,
             "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
@@ -78,7 +79,8 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      22°
+      6
+      °
     </Text>
   </View>
   <View
@@ -96,17 +98,17 @@ exports[`renders correctly 1`] = `
           Object {
             "fontSize": 13,
             "fontWeight": "500",
-            "textTransform": "uppercase",
+            "textTransform": "capitalize",
           },
         ]
       }
     >
-      Monday
+      quinta
     </Text>
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/sunStorm.png",
+          "testUri": "../../../src/assets/sun.png",
         }
       }
       style={
@@ -126,7 +128,7 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "color": "red",
-            "fontSize": 15,
+            "fontSize": 13,
             "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
@@ -134,14 +136,15 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      32°
+      0
+      °
     </Text>
     <Text
       style={
         Array [
           Object {
             "color": "blue",
-            "fontSize": 13,
+            "fontSize": 12,
             "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
@@ -149,7 +152,8 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      22°
+      6
+      °
     </Text>
   </View>
   <View
@@ -167,17 +171,17 @@ exports[`renders correctly 1`] = `
           Object {
             "fontSize": 13,
             "fontWeight": "500",
-            "textTransform": "uppercase",
+            "textTransform": "capitalize",
           },
         ]
       }
     >
-      Monday
+      sexta
     </Text>
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/sunStorm.png",
+          "testUri": "../../../src/assets/cloud.png",
         }
       }
       style={
@@ -197,7 +201,7 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "color": "red",
-            "fontSize": 15,
+            "fontSize": 13,
             "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
@@ -205,14 +209,15 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      32°
+      1
+      °
     </Text>
     <Text
       style={
         Array [
           Object {
             "color": "blue",
-            "fontSize": 13,
+            "fontSize": 12,
             "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
@@ -220,7 +225,8 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      22°
+      8
+      °
     </Text>
   </View>
   <View
@@ -238,17 +244,17 @@ exports[`renders correctly 1`] = `
           Object {
             "fontSize": 13,
             "fontWeight": "500",
-            "textTransform": "uppercase",
+            "textTransform": "capitalize",
           },
         ]
       }
     >
-      Monday
+      sábado
     </Text>
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/sunStorm.png",
+          "testUri": "../../../src/assets/sun.png",
         }
       }
       style={
@@ -268,7 +274,7 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "color": "red",
-            "fontSize": 15,
+            "fontSize": 13,
             "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
@@ -276,14 +282,15 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      32°
+      0
+      °
     </Text>
     <Text
       style={
         Array [
           Object {
             "color": "blue",
-            "fontSize": 13,
+            "fontSize": 12,
             "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
@@ -291,7 +298,8 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      22°
+      7
+      °
     </Text>
   </View>
   <View
@@ -309,17 +317,17 @@ exports[`renders correctly 1`] = `
           Object {
             "fontSize": 13,
             "fontWeight": "500",
-            "textTransform": "uppercase",
+            "textTransform": "capitalize",
           },
         ]
       }
     >
-      Monday
+      domingo
     </Text>
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/sunStorm.png",
+          "testUri": "../../../src/assets/cloud.png",
         }
       }
       style={
@@ -339,7 +347,7 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "color": "red",
-            "fontSize": 15,
+            "fontSize": 13,
             "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
@@ -347,14 +355,15 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      32°
+      4
+      °
     </Text>
     <Text
       style={
         Array [
           Object {
             "color": "blue",
-            "fontSize": 13,
+            "fontSize": 12,
             "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
@@ -362,7 +371,8 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      22°
+      13
+      °
     </Text>
   </View>
   <View
@@ -380,17 +390,17 @@ exports[`renders correctly 1`] = `
           Object {
             "fontSize": 13,
             "fontWeight": "500",
-            "textTransform": "uppercase",
+            "textTransform": "capitalize",
           },
         ]
       }
     >
-      Monday
+      segunda
     </Text>
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/sunStorm.png",
+          "testUri": "../../../src/assets/sunSnow.png",
         }
       }
       style={
@@ -410,7 +420,7 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "color": "red",
-            "fontSize": 15,
+            "fontSize": 13,
             "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
@@ -418,14 +428,15 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      32°
+      -3
+      °
     </Text>
     <Text
       style={
         Array [
           Object {
             "color": "blue",
-            "fontSize": 13,
+            "fontSize": 12,
             "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
@@ -433,7 +444,8 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      22°
+      0
+      °
     </Text>
   </View>
   <View
@@ -451,17 +463,17 @@ exports[`renders correctly 1`] = `
           Object {
             "fontSize": 13,
             "fontWeight": "500",
-            "textTransform": "uppercase",
+            "textTransform": "capitalize",
           },
         ]
       }
     >
-      Monday
+      terça
     </Text>
     <Image
       source={
         Object {
-          "testUri": "../../../src/assets/sunStorm.png",
+          "testUri": "../../../src/assets/cloudWind.png",
         }
       }
       style={
@@ -481,7 +493,7 @@ exports[`renders correctly 1`] = `
         Array [
           Object {
             "color": "red",
-            "fontSize": 15,
+            "fontSize": 13,
             "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
@@ -489,14 +501,15 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      32°
+      -5
+      °
     </Text>
     <Text
       style={
         Array [
           Object {
             "color": "blue",
-            "fontSize": 13,
+            "fontSize": 12,
             "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
@@ -504,7 +517,8 @@ exports[`renders correctly 1`] = `
         ]
       }
     >
-      22°
+      0
+      °
     </Text>
   </View>
 </View>
