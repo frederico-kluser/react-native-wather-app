@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import getCityNames from '../../../api/cityNames';
 import getCityWeatherInfo from '../../../api/cityWeatherInfo';
 import convertKelvinToCelsius from '../../../helpers/conversor';
+import {save} from '../../../helpers/storage';
 import {closeIcon} from '../../../styles/icons';
 import Container, {
   InputSearch,
@@ -27,6 +28,7 @@ const Search = ({
         city: data.name,
         country: data.sys.country,
         description: options[index].description,
+        favorite: false,
         humidity: parseInt(data.main.humidity),
         maxTemperature: convertKelvinToCelsius(data.main.temp_max),
         minTemperature: convertKelvinToCelsius(data.main.temp_min),
@@ -36,7 +38,11 @@ const Search = ({
       };
       console.log(data, 'data');
       console.log(item, 'item');
-      setCities((prevState: any[]) => [...prevState, item]);
+      setCities((prevState: any[]) => {
+        const newValue = [...prevState, item];
+        save(JSON.stringify(newValue));
+        return newValue;
+      });
     }
     setInputFilter('');
   };

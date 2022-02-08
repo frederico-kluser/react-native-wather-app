@@ -22,6 +22,7 @@ export interface ItemInterface {
 const Item = ({
   city,
   country,
+  favorite,
   func = () => {},
   humidity,
   index,
@@ -29,9 +30,12 @@ const Item = ({
   temperature,
   wind,
 }: ItemInterface) => (
-  <Container marginRight={index % 2 === 0} onPress={() => func(index)}>
+  <Container
+    favorite={favorite}
+    marginRight={index % 2 === 0}
+    onPress={() => func(index)}>
     <WeatherIcon source={weatherIcons[status]} />
-    <Temperature>{temperature}°</Temperature>
+    <Temperature favorite={favorite}>{temperature}°</Temperature>
     <City>{city}</City>
     <Country>{country}</Country>
     <WeatherInfo>

@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   style={
     Array [
       Object {
-        "top": 62,
+        "top": "8%",
       },
     ]
   }
@@ -22,7 +22,11 @@ exports[`renders correctly 1`] = `
     <Text
       style={
         Array [
-          Object {},
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "uppercase",
+          },
         ]
       }
     >
@@ -40,6 +44,7 @@ exports[`renders correctly 1`] = `
             "height": 32,
             "left": "47%",
             "position": "absolute",
+            "top": -8,
             "width": 32,
           },
         ]
@@ -49,7 +54,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "red",
+            "fontSize": 15,
+            "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
           },
@@ -62,7 +69,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "blue",
+            "fontSize": 13,
+            "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
           },
@@ -84,7 +93,11 @@ exports[`renders correctly 1`] = `
     <Text
       style={
         Array [
-          Object {},
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "uppercase",
+          },
         ]
       }
     >
@@ -102,6 +115,7 @@ exports[`renders correctly 1`] = `
             "height": 32,
             "left": "47%",
             "position": "absolute",
+            "top": -8,
             "width": 32,
           },
         ]
@@ -111,7 +125,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "red",
+            "fontSize": 15,
+            "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
           },
@@ -124,7 +140,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "blue",
+            "fontSize": 13,
+            "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
           },
@@ -146,7 +164,11 @@ exports[`renders correctly 1`] = `
     <Text
       style={
         Array [
-          Object {},
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "uppercase",
+          },
         ]
       }
     >
@@ -164,6 +186,7 @@ exports[`renders correctly 1`] = `
             "height": 32,
             "left": "47%",
             "position": "absolute",
+            "top": -8,
             "width": 32,
           },
         ]
@@ -173,7 +196,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "red",
+            "fontSize": 15,
+            "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
           },
@@ -186,7 +211,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "blue",
+            "fontSize": 13,
+            "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
           },
@@ -208,7 +235,11 @@ exports[`renders correctly 1`] = `
     <Text
       style={
         Array [
-          Object {},
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "uppercase",
+          },
         ]
       }
     >
@@ -226,6 +257,7 @@ exports[`renders correctly 1`] = `
             "height": 32,
             "left": "47%",
             "position": "absolute",
+            "top": -8,
             "width": 32,
           },
         ]
@@ -235,7 +267,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "red",
+            "fontSize": 15,
+            "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
           },
@@ -248,7 +282,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "blue",
+            "fontSize": 13,
+            "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
           },
@@ -270,7 +306,11 @@ exports[`renders correctly 1`] = `
     <Text
       style={
         Array [
-          Object {},
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "uppercase",
+          },
         ]
       }
     >
@@ -288,6 +328,7 @@ exports[`renders correctly 1`] = `
             "height": 32,
             "left": "47%",
             "position": "absolute",
+            "top": -8,
             "width": 32,
           },
         ]
@@ -297,7 +338,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "red",
+            "fontSize": 15,
+            "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
           },
@@ -310,7 +353,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "blue",
+            "fontSize": 13,
+            "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
           },
@@ -332,7 +377,11 @@ exports[`renders correctly 1`] = `
     <Text
       style={
         Array [
-          Object {},
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "uppercase",
+          },
         ]
       }
     >
@@ -350,6 +399,7 @@ exports[`renders correctly 1`] = `
             "height": 32,
             "left": "47%",
             "position": "absolute",
+            "top": -8,
             "width": 32,
           },
         ]
@@ -359,7 +409,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "red",
+            "fontSize": 15,
+            "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
           },
@@ -372,7 +424,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "blue",
+            "fontSize": 13,
+            "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
           },
@@ -394,7 +448,11 @@ exports[`renders correctly 1`] = `
     <Text
       style={
         Array [
-          Object {},
+          Object {
+            "fontSize": 13,
+            "fontWeight": "500",
+            "textTransform": "uppercase",
+          },
         ]
       }
     >
@@ -412,6 +470,7 @@ exports[`renders correctly 1`] = `
             "height": 32,
             "left": "47%",
             "position": "absolute",
+            "top": -8,
             "width": 32,
           },
         ]
@@ -421,7 +480,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "red",
+            "fontSize": 15,
+            "fontWeight": "bold",
             "left": "80%",
             "position": "absolute",
           },
@@ -434,7 +495,9 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 17,
+            "color": "blue",
+            "fontSize": 13,
+            "fontWeight": "bold",
             "position": "absolute",
             "right": "0%",
           },

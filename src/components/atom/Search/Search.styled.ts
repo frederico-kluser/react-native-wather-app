@@ -5,7 +5,6 @@ import {
   ITEM_MARGIN,
   GLOBAL_PADDING,
   SHADOW_EFFECT,
-  INPUT_OPTION_HEIGHT,
 } from '../../../styles/theme';
 
 export const Container = styled.View`

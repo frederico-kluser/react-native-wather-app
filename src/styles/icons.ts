@@ -15,6 +15,7 @@ export const weatherIcons = {
   'broken clouds': require('../assets/cloudWind.png'),
   'broken clouds: 51-84%': require('../assets/cloudWind.png'),
   'overcast clouds: 85-100%': require('../assets/cloudWind.png'),
+  'overcast clouds': require('../assets/cloudWind.png'),
   'clear sky': require('../assets/sun.png'), // moon
   'few clouds': require('../assets/cloudDay.png'), // cloudNight
   'few clouds: 11-25%': require('../assets/cloudDay.png'), // cloudNight
@@ -80,3 +81,8 @@ export const searchIcon = require('../assets/search.png');
 
 export const closeIcon = require('../assets/close.png');
 export const closeIcon2 = require('../assets/close2.png');
+
+export const trashIcon = require('../assets/trash.png');
+
+export const heartIcon = require('../assets/heart.png');
+export const heartFullIcon = require('../assets/heartFull.png');

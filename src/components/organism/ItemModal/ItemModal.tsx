@@ -2,15 +2,16 @@ import React, {useState, useEffect} from 'react';
 import {Animated} from 'react-native';
 import kluserMotion, {animationTime} from '../../../helpers/animation';
 import {deviceHeight, deviceWidth, itemSize} from '../../../helpers/dimentions';
-import {closeIcon2, IconProps, weatherIcons} from '../../../styles/icons';
+import {IconProps, weatherIcons} from '../../../styles/icons';
 import {INPUT_HEIGHT, ITEM_MARGIN, GLOBAL_PADDING} from '../../../styles/theme';
-import HorizontalCarousel from '../../molecule/HorizontalCarousel/HorizontalCarousel';
-import VerticalList from '../../molecule/VerticalList/VerticalList';
 import {
   CloseButton,
-  CloseIcon,
+  DeleteButton,
+  FavoriteButton,
+} from '../../atom/IconButton/IconButton';
+import VerticalList from '../../molecule/VerticalList/VerticalList';
+import {
   Container,
-  ContentContainer,
   TitleCity,
   TitleIcon,
   TitleTemperature,
@@ -27,12 +28,15 @@ export interface ItemModalInterface {
 }
 
 const ItemModal = ({
-  index,
   city,
+  description,
+  favorite,
+  index,
   optionsQuantity,
-  status,
-  setSelectedItem,
   scrollY,
+  setCities,
+  setSelectedItem,
+  status,
   temperature,
 }: ItemModalInterface) => {
   const distanceFromTop = Math.ceil((index + 1) / 2);
@@ -50,6 +54,44 @@ const ItemModal = ({
     optionsTotalHeight;
 
   const leftSize = index % 2 === 0 ? 16 : deviceWidth - (itemSize + 16);
+
+  const handleClose = () => {
+    setStyle({
+      borderRadius: style.borderRadius.reverse(),
+      top: style.top.reverse(),
+      left: style.left.reverse(),
+      width: style.width.reverse(),
+      height: style.height.reverse(),
+    });
+    setTimeout(() => {
+      setSelectedItem(-1);
+    }, animationTime);
+  };
+
+  const handleDelete = () => {
+    handleClose();
+    setTimeout(() => {
+      setCities((prevState: any) =>
+        prevState.filter((city: any) => city.description !== description),
+      );
+    }, animationTime);
+  };
+
+  const handleFavorite = () => {
+    setCities((prevState: any) =>
+      prevState.map((prevCity: any) => {
+        let localFavorite = false;
+
+        if (prevCity.description === description) {
+          localFavorite = !prevCity.favorite;
+        }
+
+        console.log({...prevCity, localFavorite});
+
+        return {...prevCity, favorite: localFavorite};
+      }),
+    );
+  };
 
   const [style, setStyle] = useState({
     borderRadius: kluserMotion(16, 0),
@@ -76,30 +118,14 @@ const ItemModal = ({
         style.height.animation,
         style.borderRadius.animation,
       )}>
-      <CloseButton
-        index={index}
-        onPress={() => {
-          setStyle({
-            borderRadius: style.borderRadius.reverse(),
-            top: style.top.reverse(),
-            left: style.left.reverse(),
-            width: style.width.reverse(),
-            height: style.height.reverse(),
-          });
-          setTimeout(() => {
-            setSelectedItem(-1);
-          }, animationTime);
-        }}>
-        <CloseIcon source={closeIcon2} />
-      </CloseButton>
+      <FavoriteButton onPress={handleFavorite} favorite={favorite} />
+      <CloseButton onPress={handleClose} />
       <Container>
         <TitleIcon source={weatherIcons[status]} />
         <TitleCity>{city}</TitleCity>
         <TitleTemperature>{temperature}°</TitleTemperature>
-        <ContentContainer>
-          <HorizontalCarousel />
-          <VerticalList />
-        </ContentContainer>
+        <VerticalList />
+        <DeleteButton onPress={handleDelete} />
       </Container>
     </Animated.View>
   );

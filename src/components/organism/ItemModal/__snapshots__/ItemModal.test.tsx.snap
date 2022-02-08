@@ -30,6 +30,43 @@ exports[`renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
+        "left": 16,
+        "opacity": 1,
+        "position": "absolute",
+        "top": 16,
+        "zIndex": 2,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/heart.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "width": 32,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
         "opacity": 1,
         "position": "absolute",
         "right": 16,
@@ -107,10 +144,7 @@ exports[`renders correctly 1`] = `
       style={
         Array [
           Object {
-            "bottom": "15%",
-            "height": "auto",
-            "left": 16,
-            "position": "absolute",
+            "top": "8%",
           },
         ]
       }
@@ -118,7 +152,9 @@ exports[`renders correctly 1`] = `
       <View
         style={
           Array [
-            Object {},
+            Object {
+              "marginBottom": "6%",
+            },
           ]
         }
       >
@@ -126,1649 +162,540 @@ exports[`renders correctly 1`] = `
           style={
             Array [
               Object {
-                "fontSize": 17,
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "uppercase",
               },
             ]
           }
         >
-          Today
+          Monday
         </Text>
-        <RCTScrollView
-          horizontal={true}
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sunStorm.png",
+            }
+          }
           style={
             Array [
               Object {
-                "flexDirection": "row",
-                "height": "15%",
-                "top": 23,
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
               },
             ]
           }
         >
-          <View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "marginRight": 50,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 13,
-                    },
-                  ]
-                }
-              >
-                10 AM
-              </Text>
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/rain.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "top": 13,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontSize": 25,
-                      "top": 23,
-                    },
-                  ]
-                }
-              >
-                19°
-              </Text>
-            </View>
-          </View>
-        </RCTScrollView>
+          32°
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          22°
+        </Text>
       </View>
       <View
         style={
           Array [
             Object {
-              "top": 62,
+              "marginBottom": "6%",
             },
           ]
         }
       >
-        <View
+        <Text
           style={
             Array [
               Object {
-                "marginBottom": "6%",
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "uppercase",
               },
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {},
-              ]
+          Monday
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sunStorm.png",
             }
-          >
-            Monday
-          </Text>
-          <Image
-            source={
-              Object {
-                "testUri": "../../../src/assets/sunStorm.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "height": 32,
-                  "left": "47%",
-                  "position": "absolute",
-                  "width": 32,
-                },
-              ]
-            }
-          />
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "left": "80%",
-                  "position": "absolute",
-                },
-              ]
-            }
-          >
-            32°
-          </Text>
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "position": "absolute",
-                  "right": "0%",
-                },
-              ]
-            }
-          >
-            22°
-          </Text>
-        </View>
-        <View
+          }
           style={
             Array [
               Object {
-                "marginBottom": "6%",
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
               },
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {},
-              ]
-            }
-          >
-            Monday
-          </Text>
-          <Image
-            source={
-              Object {
-                "testUri": "../../../src/assets/sunStorm.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "height": 32,
-                  "left": "47%",
-                  "position": "absolute",
-                  "width": 32,
-                },
-              ]
-            }
-          />
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "left": "80%",
-                  "position": "absolute",
-                },
-              ]
-            }
-          >
-            32°
-          </Text>
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "position": "absolute",
-                  "right": "0%",
-                },
-              ]
-            }
-          >
-            22°
-          </Text>
-        </View>
-        <View
+          32°
+        </Text>
+        <Text
           style={
             Array [
               Object {
-                "marginBottom": "6%",
+                "color": "blue",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
               },
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {},
-              ]
-            }
-          >
-            Monday
-          </Text>
-          <Image
-            source={
-              Object {
-                "testUri": "../../../src/assets/sunStorm.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "height": 32,
-                  "left": "47%",
-                  "position": "absolute",
-                  "width": 32,
-                },
-              ]
-            }
-          />
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "left": "80%",
-                  "position": "absolute",
-                },
-              ]
-            }
-          >
-            32°
-          </Text>
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "position": "absolute",
-                  "right": "0%",
-                },
-              ]
-            }
-          >
-            22°
-          </Text>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "marginBottom": "6%",
-              },
-            ]
-          }
-        >
-          <Text
-            style={
-              Array [
-                Object {},
-              ]
-            }
-          >
-            Monday
-          </Text>
-          <Image
-            source={
-              Object {
-                "testUri": "../../../src/assets/sunStorm.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "height": 32,
-                  "left": "47%",
-                  "position": "absolute",
-                  "width": 32,
-                },
-              ]
-            }
-          />
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "left": "80%",
-                  "position": "absolute",
-                },
-              ]
-            }
-          >
-            32°
-          </Text>
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "position": "absolute",
-                  "right": "0%",
-                },
-              ]
-            }
-          >
-            22°
-          </Text>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "marginBottom": "6%",
-              },
-            ]
-          }
-        >
-          <Text
-            style={
-              Array [
-                Object {},
-              ]
-            }
-          >
-            Monday
-          </Text>
-          <Image
-            source={
-              Object {
-                "testUri": "../../../src/assets/sunStorm.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "height": 32,
-                  "left": "47%",
-                  "position": "absolute",
-                  "width": 32,
-                },
-              ]
-            }
-          />
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "left": "80%",
-                  "position": "absolute",
-                },
-              ]
-            }
-          >
-            32°
-          </Text>
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "position": "absolute",
-                  "right": "0%",
-                },
-              ]
-            }
-          >
-            22°
-          </Text>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "marginBottom": "6%",
-              },
-            ]
-          }
-        >
-          <Text
-            style={
-              Array [
-                Object {},
-              ]
-            }
-          >
-            Monday
-          </Text>
-          <Image
-            source={
-              Object {
-                "testUri": "../../../src/assets/sunStorm.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "height": 32,
-                  "left": "47%",
-                  "position": "absolute",
-                  "width": 32,
-                },
-              ]
-            }
-          />
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "left": "80%",
-                  "position": "absolute",
-                },
-              ]
-            }
-          >
-            32°
-          </Text>
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "position": "absolute",
-                  "right": "0%",
-                },
-              ]
-            }
-          >
-            22°
-          </Text>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "marginBottom": "6%",
-              },
-            ]
-          }
-        >
-          <Text
-            style={
-              Array [
-                Object {},
-              ]
-            }
-          >
-            Monday
-          </Text>
-          <Image
-            source={
-              Object {
-                "testUri": "../../../src/assets/sunStorm.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "height": 32,
-                  "left": "47%",
-                  "position": "absolute",
-                  "width": 32,
-                },
-              ]
-            }
-          />
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "left": "80%",
-                  "position": "absolute",
-                },
-              ]
-            }
-          >
-            32°
-          </Text>
-          <Text
-            style={
-              Array [
-                Object {
-                  "fontSize": 17,
-                  "position": "absolute",
-                  "right": "0%",
-                },
-              ]
-            }
-          >
-            22°
-          </Text>
-        </View>
+          22°
+        </Text>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Monday
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sunStorm.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          32°
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          22°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Monday
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sunStorm.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          32°
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          22°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Monday
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sunStorm.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          32°
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          22°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Monday
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sunStorm.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          32°
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          22°
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": "6%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Monday
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/sunStorm.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 32,
+                "left": "47%",
+                "position": "absolute",
+                "top": -8,
+                "width": 32,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "red",
+                "fontSize": 15,
+                "fontWeight": "bold",
+                "left": "80%",
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          32°
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "blue",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "position": "absolute",
+                "right": "0%",
+              },
+            ]
+          }
+        >
+          22°
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "bottom": "11%",
+          "left": 0,
+          "opacity": 1,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/trash.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 20,
+              "left": "50%",
+              "position": "absolute",
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "left": 16,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Deletar Item
+      </Text>
     </View>
   </View>
 </View>

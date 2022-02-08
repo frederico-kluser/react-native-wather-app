@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import {itemSize} from '../../../helpers/dimentions';
+import {RED} from '../../../styles/colors';
 import {BORDER_RADIUS, ITEM_MARGIN, SHADOW_EFFECT} from '../../../styles/theme';
 
 interface ContainerInterface {
@@ -13,6 +14,7 @@ interface WeatherInfoInterface {
 export const Container = styled.TouchableOpacity<ContainerInterface>`
   ${({marginRight}) => marginRight && `margin-right: ${ITEM_MARGIN}px;`}
   ${SHADOW_EFFECT}
+  ${({favorite}) => favorite && `border: 2px solid ${RED};`})}
   border-radius: ${BORDER_RADIUS}px;
   box-sizing: border-box;
   height: ${itemSize}px;
@@ -22,6 +24,7 @@ export const Container = styled.TouchableOpacity<ContainerInterface>`
 `;
 
 export const Temperature = styled.Text`
+  ${({favorite}) => favorite && `color: ${RED};`})}
   font-size: 37px;
 `;
 
