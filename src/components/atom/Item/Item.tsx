@@ -20,12 +20,14 @@ export interface ItemInterface {
 }
 
 const Item = ({
-  temperature,
-  func = () => {},
-  index,
   city,
   country,
+  func = () => {},
+  humidity,
+  index,
   status,
+  temperature,
+  wind,
 }: ItemInterface) => (
   <Container marginRight={index % 2 === 0} onPress={() => func(index)}>
     <WeatherIcon source={weatherIcons[status]} />
@@ -34,11 +36,11 @@ const Item = ({
     <Country>{country}</Country>
     <WeatherInfo>
       <WeatherInfoIcon source={weatherIcons.humidity} />
-      <WeatherInfoText>20%</WeatherInfoText>
+      <WeatherInfoText>{humidity}%</WeatherInfoText>
     </WeatherInfo>
     <WeatherInfo rightPosition>
       <WeatherInfoIcon source={weatherIcons.wind} />
-      <WeatherInfoText>7 km/h</WeatherInfoText>
+      <WeatherInfoText>{wind} km/h</WeatherInfoText>
     </WeatherInfo>
   </Container>
 );

@@ -10,7 +10,7 @@ import Container, {
 const LargeItem = ({}: any) => (
   <Container>
     <DayOfWeek>Monday</DayOfWeek>
-    <WeatherIcon source={weatherIcons.day} />
+    <WeatherIcon source={weatherIcons.thunderstorm} />
     <MaxTemperature>32°</MaxTemperature>
     <MinTemperature>22°</MinTemperature>
   </Container>

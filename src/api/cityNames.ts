@@ -12,8 +12,7 @@ const getCityNames = async (cityName: string): Promise<string[]> => {
     )}&sensor=false&types=(cities)&key=${GOOGLE_API_KEY}`,
     requestOptions,
   );
-  const data = await response.json();
-  return data;
+  return await response.json();
 };
 
 export default getCityNames;
