@@ -30,17 +30,30 @@ exports[`renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "backgroundColor": "#000",
-        "height": 20,
-        "left": 0,
         "opacity": 1,
         "position": "absolute",
-        "top": 0,
-        "width": 20,
+        "right": 16,
+        "top": 16,
         "zIndex": 2,
       }
     }
-  />
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/close2.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "width": 32,
+          },
+        ]
+      }
+    />
+  </View>
   <View
     style={
       Array [

@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import {deviceHeight, deviceWidth} from '../../../helpers/dimentions';
+import {GLOBAL_PADDING} from '../../../styles/theme';
 
 type Overflow = 'hidden' | 'scroll' | 'visible';
 type Position = 'absolute' | 'relative';
@@ -35,14 +36,16 @@ interface ButtonInterface {
   index: number;
 }
 
-const Button = styled.TouchableOpacity<ButtonInterface>`
-  background-color: #000;
-  height: 20px;
-  left: 0px;
+export const CloseButton = styled.TouchableOpacity<ButtonInterface>`
+  right: ${GLOBAL_PADDING}px;
   position: absolute;
-  top: 0px;
-  width: 20px;
+  top: ${GLOBAL_PADDING}px;
   z-index: 2;
+`;
+
+export const CloseIcon = styled.Image`
+  height: 32px;
+  width: 32px;
 `;
 
 export const Container = styled.View`
@@ -76,5 +79,3 @@ export const ContentContainer = styled.View`
   left: 16px;
   height: auto;
 `;
-
-export default Button;

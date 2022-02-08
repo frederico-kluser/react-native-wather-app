@@ -79,3 +79,4 @@ export const weatherIcons = {
 export const searchIcon = require('../assets/search.png');
 
 export const closeIcon = require('../assets/close.png');
+export const closeIcon2 = require('../assets/close2.png');

@@ -2,11 +2,13 @@ import React, {useState, useEffect} from 'react';
 import {Animated} from 'react-native';
 import kluserMotion, {animationTime} from '../../../helpers/animation';
 import {deviceHeight, deviceWidth, itemSize} from '../../../helpers/dimentions';
-import {IconProps, weatherIcons} from '../../../styles/icons';
+import {closeIcon2, IconProps, weatherIcons} from '../../../styles/icons';
 import {INPUT_HEIGHT, ITEM_MARGIN, GLOBAL_PADDING} from '../../../styles/theme';
 import HorizontalCarousel from '../../molecule/HorizontalCarousel/HorizontalCarousel';
 import VerticalList from '../../molecule/VerticalList/VerticalList';
-import Button, {
+import {
+  CloseButton,
+  CloseIcon,
   Container,
   ContentContainer,
   TitleCity,
@@ -74,7 +76,7 @@ const ItemModal = ({
         style.height.animation,
         style.borderRadius.animation,
       )}>
-      <Button
+      <CloseButton
         index={index}
         onPress={() => {
           setStyle({
@@ -87,8 +89,9 @@ const ItemModal = ({
           setTimeout(() => {
             setSelectedItem(-1);
           }, animationTime);
-        }}
-      />
+        }}>
+        <CloseIcon source={closeIcon2} />
+      </CloseButton>
       <Container>
         <TitleIcon source={weatherIcons[status]} />
         <TitleCity>{city}</TitleCity>
