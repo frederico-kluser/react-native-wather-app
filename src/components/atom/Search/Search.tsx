@@ -31,6 +31,7 @@ const Search = ({
       const data: any = await getCityWeatherInfo(
         options[index].structured_formatting.main_text,
       );
+      console.log(data, 'data');
       const data2 = await getCityWeatherNextDaysInfo(
         data.coord.lat,
         data.coord.lon,
@@ -93,6 +94,10 @@ const Search = ({
             firstItem = index;
           }
         });
+
+        if (firstItem === -1) {
+          firstItem = 0;
+        }
 
         return item;
       })}
